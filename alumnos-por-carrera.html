@@ -1,22 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-  <meta name="description"
-    content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
-  <!-- Twitter meta-->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:site" content="@pratikborsadiya">
-  <meta property="twitter:creator" content="@pratikborsadiya">
-  <!-- Open Graph Meta-->
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Vali Admin">
-  <meta property="og:title" content="Vali - Free Bootstrap 4 admin theme">
-  <meta property="og:url" content="http://pratikborsadiya.in/blog/vali-admin">
-  <meta property="og:image" content="http://pratikborsadiya.in/blog/vali-admin/hero-social.png">
-  <meta property="og:description"
-    content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
-  <title>Bootstrap Elements - Vali Admin</title>
+  <title>Analítica de datos</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,9 +11,23 @@
   <!-- Font-icon css-->
   <link rel="stylesheet" type="text/css"
     href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Biliotecas de AnyCharts-->
+  <!--<script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-ui.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-exports.min.js"></script>
+  -->
 
-  <script type="text/javascript" src="lib/loader.js"></script>
+  <div id="anychart-embed-modules--samples-anychart.fromjsonfile" class="anychart-embed anychart-embed-modules--samples-anychart.fromjsonfile">
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-exports.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-ui.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-data-adapter.min.js"></script>  
+  <!--Estilo principal-->
   <link rel="stylesheet" href="css/style.css">
+  <!--Estilos del gráfico-->
+  <link href="https://cdn.anychart.com/releases/v8/css/anychart-ui.min.css" type="text/css" rel="stylesheet">
+  <link href="https://cdn.anychart.com/releases/v8/fonts/css/anychart-font.min.css" type="text/css" rel="stylesheet">
+
 </head>
 
 <body class="app sidebar-mini">
@@ -201,65 +201,26 @@
 
 
   <main class="app-content">
+    
     <div class="app-title">
       <div class="div">
         <h1><i class="fa fa-laptop"></i> Alumnos</h1>
         <p>Gráfico</p><br>
-
         <!-- Buttons-->
         <div class="tile mb-4">
           <div class="page-header">
             <div class="row">
               <div class="col-lg-12">
-                <h2 class="mb-3 line-head" id="buttons">Grafico de pastel en 3D</h2>
+                <h2 class="mb-3 line-head" id="buttons">Grafico de pastel en 3D de alumnos inscritos por carrera.</h2>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-7">
-
-
-
-              <div class="mb-3 bs-component">
-
-
-                <div id="chart_div"></div> <!--DIV DE LA GRAFICA charts5-->
-              </div>
-
-
-            </div>
-            <div class="col-lg-5">
-
-              <div class="bs-component" style="margin-bottom: 15px;">
-
-                <p>You should use a pie chart when you have a data set that consists of different distinct parts or
-                  categories that add up to a meaningful whole. In other
-                  words, it's best to use a pie chart when you want to compare the contribution of each category to the
-                  whole.</p>
-
-
-                <div class="bs-component" style="margin-bottom: 15px;">
-                  <p>22222222222222 You should use a pie chart when you have a data set that consists of different
-                    distinct parts or categories that add up to a meaningful whole. In other
-                    words, it's best to use a pie chart when you want to compare the contribution of each category to
-                    the whole.</p>
-
-                </div>
-
-                <div class="bs-component" style="margin-bottom: 15px;">
-                  <p>33333333333 You should use a pie chart when you have a data set that consists of different distinct
-                    parts or categories that add up to a meaningful whole. In other
-                    words, it's best to use a pie chart when you want to compare the contribution of each category to
-                    the whole.</p>
-
-                </div>
-
-              </div>
-            </div>
+            <div id="pastel3d" class="grafico"></div> <!--DIV DE LA GRAFICA charts5-->
           </div>
-
-
-
+        </div>
+      </div>
+    </div>
 
 
 
@@ -276,7 +237,10 @@
     $('.bs-component [data-toggle="popover"]').popover();
     $('.bs-component [data-toggle="tooltip"]').tooltip();
   </script>
+
+  <!--Controlador del gráfico de pastel 3D-->
   <script src="js/controladorAlumnos/controladorInscritos.js"></script>
+
 </body>
 
 </html>

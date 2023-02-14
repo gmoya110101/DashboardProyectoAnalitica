@@ -1,43 +1,42 @@
-google.charts.load('current', { packages: ['corechart', 'bar'] });
-// Set a callback to run when the Google Visualization API is loaded.
-google.charts.setOnLoadCallback(drawChart);
+anychart.onDocumentReady(function () {
 
+    anychart.data.loadJsonFile(
+        'https://api.npoint.io/933c501a2465b5ecd2d9',
+        function (data) {
+            // create column chart
+            var chart = anychart.column(data);
+            chart.animation(true);
 
-var tempTitulo = 'Cantidad de alumnos por sexo';
-$.ajax({
-    url: "controlador/controladorAlumnos/controladorAlumnosPorSexo.php",
-    method: "POST",
+            // set chart title text settings
+            chart.title('Alumnos por sexo');
 
-    dataType: "JSON",
-    success: function (data) {
-        console.log(data);
-        drawChart(data, tempTitulo);
-    }
+            // set series tooltip settings
+            chart.tooltip().titleFormat('{%X}');
+
+            chart
+                .tooltip()
+                .position('center-top')
+                .anchor('center-bottom')
+                .offsetX(0)
+                .offsetY(5)
+                .format('Total {%Value}{groupsSeparator: }');//Formato de las etiquetas emergentes
+
+            // set scale minimum
+            chart.yScale().minimum(0);
+
+            // tooltips position and interactivity settings
+            chart.tooltip().positionMode('point');
+            chart.interactivity().hoverMode('by-x');
+
+            // axes titles
+            chart.xAxis().title('Sexo');
+            chart.yAxis().title('Cantidad');
+
+            // set container id for the chart
+            chart.container('barras');
+
+            // initiate chart drawing
+            chart.draw();
+        }
+    );
 });
-
-function drawChart(chart_data, chart_titulo) {
-
-    var jsonData = chart_data;
-    var data = new google.visualization.DataTable();
-    data.addColumn('string', 'Sexo');
-    data.addColumn('number', 'Cantidad');
-
-
-    $.each(jsonData, function (i, jsonData) {
-        var sexo = jsonData.sexo;
-        var cantidad = parseInt($.trim(jsonData.total));
-        data.addRows([[sexo, cantidad]]);
-    });
-
-    var options = {
-        title: chart_titulo,
-        colors: ['#0EF707', '#007329', '#F5E605'],
-        hAxis: { title: "Nombre" },
-        vAxis: { title: "Cantidad" },
-
-    };
-
-    var chart = new google.visualization.ColumnChart(document.getElementById("chart_div"));
-
-    chart.draw(data, options);
-}
