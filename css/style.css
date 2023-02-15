@@ -1,3 +1,5 @@
+
+/*Para hacerlo responsivo*/
 .grafico {
   width: 100%;
   height: 31.25em;
@@ -11,4 +13,12 @@
     width: 100%;
  
   }
+}
+
+/*Tamaño de la imagen*/
+
+#img{
+
+  height: 90px;
+  width: 90px;
 }

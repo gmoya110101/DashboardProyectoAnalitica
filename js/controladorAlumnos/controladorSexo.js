@@ -1,7 +1,7 @@
 anychart.onDocumentReady(function () {
 
     anychart.data.loadJsonFile(
-        'https://api.npoint.io/933c501a2465b5ecd2d9',
+        'https://api.npoint.io/527b0247643488ed81b4',
         function (data) {
             // create column chart
             var chart = anychart.column(data);

@@ -2,7 +2,7 @@
 anychart.onDocumentReady(function () {
   // Creates Area chart.
   anychart.data.loadJsonFile(
-    'https://api.npoint.io/f98b2a41ea3eeeb7c5f0',
+    'https://api.npoint.io/e27d6bdcfb33c44796ab',
     function (data) {
         // create column chart
         var chart = anychart.area(data);

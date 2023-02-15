@@ -6,7 +6,7 @@ anychart.onDocumentReady(function () {
   // The data used in this sample can be obtained from the CDN
   // https://cdn.anychart.com/samples/general-features/load-json-data/data.json
   anychart.data.loadJsonFile(
-    'https://api.npoint.io/4e376ac5ea8bfdcef4f2',
+    'https://api.npoint.io/66c8859373a162af2879',
     function (data) {
       var chart = anychart.pie3d(data);
       chart
