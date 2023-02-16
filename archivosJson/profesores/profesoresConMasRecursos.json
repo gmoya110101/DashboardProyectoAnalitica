@@ -1,0 +1,454 @@
+{
+    "nodes": [
+        {
+            "id": "Ángel Flores",
+            "fill": "#DD1D2F",
+            "stroke": "2 #DD1D2F .5"
+        },
+        {
+            "id": "Ángel Ovando Téllez",
+            "fill": "#FF9F2E",
+            "stroke": "2 #FF9F2E .5"
+        },
+        {
+            "id": "Ángel Terrazas Carmona",
+            "fill": "#A9B2BD",
+            "stroke": "2 #A9B2BD .5"
+        },
+        {
+            "id": "Armando López Macip",
+            "fill": "#47009C",
+            "stroke": "2 #47009C .5"
+        },
+        {
+            "id": "Beatriz Alejandra Olivera Zepahua",
+            "fill": "#FFED31",
+            "stroke": "2 #FFED31 .5"
+        },
+        {
+            "id": "Concepción Nava Arteaga",
+            "fill": "#008272",
+            "stroke": "2 #008272 .5"
+        },
+        {
+            "id": "Francisco Reyes",
+            "fill": "#FF6600",
+            "stroke": "2 #FF6600 .5"
+        },
+        {
+            "id": "Giner Alor Hernández",
+            "fill": "#172642",
+            "stroke": "2 #172642 .5"
+        },
+        {
+            "id": "Gustavo Acevedo",
+            "fill": "#042962",
+            "stroke": "2 #042962 .5"
+        },
+        {
+            "id": "Jesús Cilias",
+            "fill": "#141B3B",
+            "stroke": "2 #141B3B .5"
+        },
+        {
+            "id": "José Lauro",
+            "fill": "#3B96D1",
+            "stroke": "2 #3B96D1 .5"
+        },
+        {
+            "id": "Laura Leticia",
+            "fill": "#366CA7",
+            "stroke": "2 #366CA7 .5"
+        },
+        {
+            "id": "Lizbeth Mazahua",
+            "fill": "#27A858",
+            "stroke": "2 #27A858 .5"
+        },
+        {
+            "id": "Marisela Linares",
+            "fill": "#F77B00",
+            "stroke": "2 #F77B00 .5"
+        },
+        {
+            "id": "Norma Rodríguez",
+            "fill": "#F3AC00",
+            "stroke": "2 #F3AC00 .5"
+        },
+        {
+            "id": "Patricia Quitl",
+            "fill": "#0068B0",
+            "stroke": "2 #0068B0 .5"
+        },
+        {
+            "id": "Rafael Herrera",
+            "fill": "#800080",
+            "stroke": "2 #800080 .5"
+        },
+        {
+            "id": "Rose Mary Freeman",
+            "fill": "#E43238",
+            "stroke": "2 #E43238 .5"
+        },
+        {
+            "id": "Thelma Estévez",
+            "fill": "#5774B7",
+            "stroke": "2 #5774B7 .5"
+        },
+        {
+            "id": "Administración de bases de datos",
+            "fill": "#4267B2",
+            "stroke": "2 #4267B2 .5"
+        },
+        {
+            "id": "Arquitectura de software para la web",
+            "fill": "#204B77",
+            "stroke": "2 #204B77 .5"
+        },
+        {
+            "id": "Cálculo diferencial",
+            "fill": "#0DAA42",
+            "stroke": "2 #0DAA42 .5"
+        },
+        {
+            "id": "Cálculo integral",
+            "fill": "#D54D40",
+            "stroke": "2 #D54D40 .5"
+        },
+        {
+            "id": "Conmutación",
+            "fill": "#4284F4",
+            "stroke": "2 #4284F4 .5"
+        },
+        {
+            "id": "Ecuaciones diferenciales",
+            "fill": "#123C63",
+            "stroke": "2 #123C63 .5"
+        },
+        {
+            "id": "Estructuras de datos",
+            "fill": "#0CBE98",
+            "stroke": "2 #0CBE98 .5"
+        },
+        {
+            "id": "Física",
+            "fill": "#6ABE44",
+            "stroke": "2 #6ABE44 .5"
+        },
+        {
+            "id": "Gestión de proyectos de software",
+            "fill": "#2263F3",
+            "stroke": "2 #2263F3 .5"
+        },
+        {
+            "id": "Lenguajes y autómatas",
+            "fill": "#EC1138",
+            "stroke": "2 #EC1138 .5"
+        },
+        {
+            "id": "Matemáticas discretas",
+            "fill": "#252F3D",
+            "stroke": "2 #252F3D .5"
+        },
+        {
+            "id": "Metodologías emergentes de la web",
+            "fill": "#F0821D",
+            "stroke": "2 #F0821D .5"
+        },
+        {
+            "id": "Métodos numéricos",
+            "fill": "#1827EF",
+            "stroke": "2 #1827EF .5"
+        },
+        {
+            "id": "POO",
+            "fill": "#0059A6",
+            "stroke": "2 #0059A6 .5"
+        },
+        {
+            "id": "Probabilidad y estadística",
+            "fill": "#000000",
+            "stroke": "2 #000000 .5"
+        },
+        {
+            "id": "Programación lógica y funcional",
+            "fill": "#133065",
+            "stroke": "2 #133065 .5"
+        },
+        {
+            "id": "Química",
+            "fill": "#4977DB",
+            "stroke": "2 #4977DB .5"
+        },
+        {
+            "id": "Redes de computadoras",
+            "fill": "#002C8A",
+            "stroke": "2 #002C8A .5"
+        },
+        {
+            "id": "RIAS",
+            "fill": "#BD061D",
+            "stroke": "2 #BD061D .5"
+        },
+        {
+            "id": "Sistemas programables",
+            "fill": "#119AD7",
+            "stroke": "2 #119AD7 .5"
+        },
+        {
+            "id": "Taller de investigación",
+            "fill": "#58CEF4",
+            "stroke": "2 #58CEF4 .5"
+        }
+    ],
+    "edges": [
+        {
+            "from": "Ángel Flores",
+            "to": "Cálculo integral"
+        },
+        {
+            "from": "Ángel Flores",
+            "to": "Ecuaciones diferenciales"
+        },
+        {
+            "from": "Ángel Ovando Téllez",
+            "to": "Cálculo integral"
+        },
+        {
+            "from": "Ángel Ovando Téllez",
+            "to": "Cálculo diferencial"
+        },
+        {
+            "from": "Ángel Terrazas Carmona",
+            "to": "Cálculo diferencial"
+        },
+        {
+            "from": "Ángel Terrazas Carmona",
+            "to": "Cálculo integral"
+        },
+        {
+            "from": "Ángel Terrazas Carmona",
+            "to": "Ecuaciones diferenciales"
+        },
+        {
+            "from": "Armando López Macip",
+            "to": "Química"
+        },
+        {
+            "from": "Armando López Macip",
+            "to": "Métodos numéricos"
+        },
+        {
+            "from": "Beatriz Alejandra Olivera Zepahua",
+            "to": "RIAS"
+        },
+        {
+            "from": "Beatriz Alejandra Olivera Zepahua",
+            "to": "POO"
+        },
+        {
+            "from": "Concepción Nava Arteaga",
+            "to": "POO"
+        },
+        {
+            "from": "Concepción Nava Arteaga",
+            "to": "Gestión de proyectos de software"
+        },
+        {
+            "from": "Concepción Nava Arteaga",
+            "to": "Metodologías emergentes de la web"
+        },
+        {
+            "from": "Concepción Nava Arteaga",
+            "to": "Taller de investigación"
+        },
+        {
+            "from": "Francisco Reyes",
+            "to": "Cálculo diferencial"
+        },
+        {
+            "from": "Francisco Reyes",
+            "to": "Cálculo integral"
+        },
+        {
+            "from": "Francisco Reyes",
+            "to": "Ecuaciones diferenciales"
+        },
+        {
+            "from": "Giner Alor Hernández",
+            "to": "Arquitectura de software para la web"
+        },
+        {
+            "from": "Giner Alor Hernández",
+            "to": "RIAS"
+        },
+        {
+            "from": "Gustavo Acevedo",
+            "to": "Administración de bases de datos"
+        },
+        {
+            "from": "Gustavo Acevedo",
+            "to": "Conmutación"
+        },
+        {
+            "from": "Gustavo Acevedo",
+            "to": "Redes de computadoras"
+        },
+        {
+            "from": "Jesús Cilias",
+            "to": "Conmutación"
+        },
+        {
+            "from": "Jesús Cilias",
+            "to": "Estructuras de datos"
+        },
+        {
+            "from": "Jesús Cilias",
+            "to": "POO"
+        },
+        {
+            "from": "Jesús Cilias",
+            "to": "Redes de computadoras"
+        },
+        {
+            "from": "Jesús Cilias",
+            "to": "Matemáticas discretas"
+        },
+        {
+            "from": "José Lauro",
+            "to": "Administración de bases de datos"
+        },
+        {
+            "from": "José Lauro",
+            "to": "Conmutación"
+        },
+        {
+            "from": "José Lauro",
+            "to": "Estructuras de datos"
+        },
+        {
+            "from": "José Lauro",
+            "to": "Lenguajes y autómatas"
+        },
+        {
+            "from": "José Lauro",
+            "to": "POO"
+        },
+        {
+            "from": "José Lauro",
+            "to": "Programación lógica y funcional"
+        },
+        {
+            "from": "José Lauro",
+            "to": "Redes de computadoras"
+        },
+        {
+            "from": "José Lauro",
+            "to": "RIAS"
+        },
+        {
+            "from": "José Lauro",
+            "to": "Sistemas programables"
+        },
+        {
+            "from": "José Lauro",
+            "to": "Taller de investigación"
+        },
+        {
+            "from": "Laura Leticia",
+            "to": "Gestión de proyectos de software"
+        },
+        {
+            "from": "Laura Leticia",
+            "to": "Matemáticas discretas"
+        },
+        {
+            "from": "Laura Leticia",
+            "to": "Metodologías emergentes de la web"
+        },
+        {
+            "from": "Laura Leticia",
+            "to": "Taller de investigación"
+        },
+        {
+            "from": "Lizbeth Mazahua",
+            "to": "Programación lógica y funcional"
+        },
+        {
+            "from": "Marisela Linares",
+            "to": "Lenguajes y autómatas"
+        },
+        {
+            "from": "Marisela Linares",
+            "to": "Matemáticas discretas"
+        },
+        {
+            "from": "Norma Rodríguez",
+            "to": "Taller de investigación"
+        },
+        {
+            "from": "Patricia Quitl",
+            "to": "Estructuras de datos"
+        },
+        {
+            "from": "Patricia Quitl",
+            "to": "Lenguajes y autómatas"
+        },
+        {
+            "from": "Patricia Quitl",
+            "to": "POO"
+        },
+        {
+            "from": "Patricia Quitl",
+            "to": "Programación lógica y funcional"
+        },
+        {
+            "from": "Patricia Quitl",
+            "to": "RIAS"
+        },
+        {
+            "from": "Patricia Quitl",
+            "to": "Taller de investigación"
+        },
+        {
+            "from": "Rafael Herrera",
+            "to": "Administración de bases de datos"
+        },
+        {
+            "from": "Rafael Herrera",
+            "to": "Estructuras de datos"
+        },
+        {
+            "from": "Rafael Herrera",
+            "to": "Lenguajes y autómatas"
+        },
+        {
+            "from": "Rafael Herrera",
+            "to": "POO"
+        },
+        {
+            "from": "Rafael Herrera",
+            "to": "Programación lógica y funcional"
+        },
+        {
+            "from": "Rafael Herrera",
+            "to": "RIAS"
+        },
+        {
+            "from": "Rafael Herrera",
+            "to": "Sistemas programables"
+        },
+        {
+            "from": "Rose Mary Freeman",
+            "to": "Física"
+        },
+        {
+            "from": "Rose Mary Freeman",
+            "to": "Probabilidad y estadística"
+        },
+        {
+            "from": "Thelma Estévez",
+            "to": "Taller de investigación"
+        }
+    ]
+}

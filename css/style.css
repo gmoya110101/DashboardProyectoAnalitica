@@ -1,4 +1,3 @@
-
 /*Para hacerlo responsivo*/
 .grafico {
   width: 100%;
@@ -7,17 +6,38 @@
   padding: 0;
 }
 
+.graficoAmplio {
+
+  width: 65.625em;
+  height: 43.75em;
+}
+
+.graficoAmplio2 {
+  width: 59.375em;
+  height: 31.25em;
+
+}
+
 @media only screen and (max-width: 55em) {
 
   .grafico {
     width: 100%;
- 
+
+  }
+
+  .graficoAmplio {
+    width: 100%;
+    height: 31.25em;
+  }
+
+  .graficoAmplio2 {
+    width: 100%;
   }
 }
 
 /*Tamaño de la imagen*/
 
-#img{
+#img {
 
   height: 90px;
   width: 90px;
