@@ -141,30 +141,20 @@ anychart.data.loadJsonFile(
 
 anychart.onDocumentReady(function () {
 
-    // create data
     anychart.data.loadJsonFile(
-        'https://api.npoint.io/f98b2a41ea3eeeb7c5f0',
+        'https://api.npoint.io/21e11d87269bde2edbe7',
         function (data) {
-          var chart = anychart.pie(data);
+            // Creates Sankey chart.
+            var chart = anychart.sankey(data);
 
-    // create a chart and set the data
-    var chart = anychart.pie(data);
-
-    // set the explosion range in different states
-    chart.selected().explode("3%");
-    chart.hovered().explode("3%");
-
-    // explode the fourth and fifth slices
-    chart.select([3, 4]);
-
-    // set the chart title
-    chart.title("Alumnos por institucion educativa");
-
-    // set the container id
-    chart.container("container");
-
-    // initiate drawing the chart
-    chart.draw();
+            chart.title('Create a Sankey chart');
+            chart.container('container');
+            chart.draw();
         }
     );
 });
+
+
+
+
+
