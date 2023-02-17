@@ -1,84 +1,8 @@
-/*
-
-anychart.onDocumentReady(function () {
-    var data = getData();
-
-    // Creates Sunburst chart.
-    var chart = anychart.sunburst(data, 'as-table');
-
-    chart.title("Create a Sunburst chart");
-    chart.container('container');
-    chart.draw();
-
-    function getData() {
-        return [
-            { name: 'Seasonal ', id: 'activities', parent: null, value: 1000 },
-            { name: 'Winter', parent: 'activities', id: 'winter', value: 250 },
-            { name: 'Spring', parent: 'activities', id: 'spring', value: 250 },
-            { name: 'Summer', parent: 'activities', id: 'summer', value: 250 },
-            { name: 'Autumn', parent: 'activities', id: 'autumn', value: 250 },
-            { name: 'Running', parent: 'winter', id: 'run', value: 43 },
-            { name: 'Snowboarding', parent: 'winter', id: 'snowboard', value: 50 },
-            { name: 'Nordic Skiing', parent: 'winter', id: 'nordic', value: 50 },
-            { name: 'Working Out', parent: 'winter', id: 'workout', value: 30 },
-            { name: 'Ice Skating', parent: 'winter', id: 'iceskate', value: 40 },
-            { name: 'Kitesurfing', parent: 'winter', id: 'kitesurf', value: 37 },
-            { name: 'Riding', parent: 'spring', id: 'ride', value: 100 },
-            { name: 'Crossfit', parent: 'spring', id: 'crossfit', value: 30 },
-            { name: 'Hiking', parent: 'spring', id: 'hike', value: 30 },
-            { name: 'Yoga', parent: 'spring', id: 'yoga', value: 40 },
-            { name: 'Running', parent: 'spring', id: 'run', value: 50 },
-            { name: 'Riding', parent: 'summer', id: 'ride', value: 150 },
-            { name: 'Windsurfing', parent: 'summer', id: 'windsurf', value: 20 },
-            { name: 'Swimming', parent: 'summer', id: 'swim', value: 30 },
-            { name: 'Roller Skiing', parent: 'summer', id: 'roller', value: 10 },
-            { name: 'Rowing', parent: 'summer', id: 'rowing', value: 40 },
-            { name: 'Riding', parent: 'autumn', id: 'ride', value: 90 },
-            { name: 'Hiking', parent: 'autumn', id: 'windsurf', value: 20 },
-            { name: 'Swimming', parent: 'autumn', id: 'swim', value: 10 },
-            { name: 'Nordic Skiing', parent: 'autumn', id: 'nordic', value: 40 },
-            { name: 'Climbing', parent: 'autumn', id: 'climbing', value: 40 }
-
-                    ];
-    }
-});
-*/
-
-/*
-            [
-                { "0": "ITO", "nombreEscuela": "ITO", "1": "7", "total": "7" }, 
-                { "0": "UGMEX", "nombreEscuela": "UGMEX", "1": "1", "total": "1" },
-                { "0": "UTCV", "nombreEscuela": "UTCV", "1": "1", "total": "1" },
-                 { "0": "UV", "nombreEscuela": "UV", "1": "1", "total": "1" }
-                ];
-
-                */
-
-
-
-/*
-anychart.onDocumentReady(function () {
-    
-    anychart.data.loadJsonFile(
-        'https://api.npoint.io/cfea05c6703201468de9',
-        function (data) {
-
-    // Creates Sunburst chart.
-    var chart = anychart.sunburst(data, 'as-table');
-    chart.animation(true);
-    
-    chart.title("Alumnos por institución educativa");
-    chart.container('container');
-    chart.draw();
-        }
-    );
-}); 
-*/
-/*
 anychart.onDocumentReady(function () {
 
     // create data
     anychart.data.loadJsonFile(
+<<<<<<< HEAD
         'https://api.npoint.io/f98b2a41ea3eeeb7c5f0',
         function (data) {
             // create column chart
@@ -143,13 +67,37 @@ anychart.onDocumentReady(function () {
 
     anychart.data.loadJsonFile(
         'https://api.npoint.io/21e11d87269bde2edbe7',
+=======
+        'https://api.npoint.io/3b44b5011e40eab136a7',
+>>>>>>> 9ac95a3ea63422637e44658748db1848f5758cb0
         function (data) {
             // Creates Sankey chart.
             var chart = anychart.sankey(data);
 
+<<<<<<< HEAD
             chart.title('Create a Sankey chart');
             chart.container('container');
             chart.draw();
+=======
+    // create a chart and set the data
+    var chart = anychart.pie(data);
+
+    // set the explosion range in different states
+    chart.selected().explode("3%");
+    chart.hovered().explode("3%");
+
+    // explode the fourth and fifth slices
+    chart.select([3, 4]);
+
+    // set the chart title
+    chart.title("Alumnos por institucion educativa");
+
+    // set the container id
+    chart.container("pastel");
+
+    // initiate drawing the chart
+    chart.draw();
+>>>>>>> 9ac95a3ea63422637e44658748db1848f5758cb0
         }
     );
 });
