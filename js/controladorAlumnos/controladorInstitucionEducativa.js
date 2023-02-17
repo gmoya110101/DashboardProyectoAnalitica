@@ -1,35 +1,4 @@
-anychart.onDocumentReady(function () {
 
-    // create data
-    anychart.data.loadJsonFile(
-<<<<<<< HEAD
-        'https://api.npoint.io/f98b2a41ea3eeeb7c5f0',
-        function (data) {
-            // create column chart
-            var chart = anychart.area(data);
-            chart.animation(true);
-
-    // create a chart and set the data
-    var chart = anychart.sunburst(data, "as-tree");
-
-    // set the calculation mode
-    chart.calculationMode("parent-independent");
-
-    // format chart labels
-    chart.labels().format('{%Name}');
-
-    // format chart labels
-    chart.tooltip().format('{%Name}:{%Value}');
-
-    // set the container id
-    chart.container("container");
-
-    // initiate drawing the chart
-    chart.draw();
-        }
-    );
-});
-*/
 
 
 
@@ -66,19 +35,9 @@ anychart.data.loadJsonFile(
 anychart.onDocumentReady(function () {
 
     anychart.data.loadJsonFile(
-        'https://api.npoint.io/21e11d87269bde2edbe7',
-=======
-        'https://api.npoint.io/3b44b5011e40eab136a7',
->>>>>>> 9ac95a3ea63422637e44658748db1848f5758cb0
-        function (data) {
-            // Creates Sankey chart.
-            var chart = anychart.sankey(data);
+        'https://api.npoint.io/cfea05c6703201468de9',
+        function(data){
 
-<<<<<<< HEAD
-            chart.title('Create a Sankey chart');
-            chart.container('container');
-            chart.draw();
-=======
     // create a chart and set the data
     var chart = anychart.pie(data);
 
@@ -97,7 +56,7 @@ anychart.onDocumentReady(function () {
 
     // initiate drawing the chart
     chart.draw();
->>>>>>> 9ac95a3ea63422637e44658748db1848f5758cb0
+
         }
     );
 });
