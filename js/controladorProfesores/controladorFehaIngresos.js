@@ -15,7 +15,7 @@ anychart.onDocumentReady(function () {
     .padding(5)
     .fontSize(14)
     .position('outside')
-    .format('${%Value}k');
+    .format('{%Value}');
 
   gauge.data([73.2]);
   gauge
@@ -89,7 +89,7 @@ anychart.onDocumentReady(function () {
 //etiquetados
   gauge
     .label(1)
-    .text('Poor')
+    .text('Más antiguo')
     .fontColor('#212121')
     .fontSize(14)
     .offsetY('68%')
@@ -98,7 +98,7 @@ anychart.onDocumentReady(function () {
 
   gauge
     .label(2)
-    .text('Average')
+    .text('Pocos años')
     .fontColor('#212121')
     .fontSize(14)
     .offsetY('68%')
@@ -107,7 +107,7 @@ anychart.onDocumentReady(function () {
 
   gauge
     .label(3)
-    .text('Good')
+    .text('Más reciente')
     .fontColor('#212121')
     .fontSize(14)
     .offsetY('68%')
