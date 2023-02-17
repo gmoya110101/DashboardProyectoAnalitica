@@ -2,32 +2,32 @@
 <html lang="es">
 
 <head>
-  <title>Analítica de datos</title>
+  <title>Anal&iacute;tica de datos</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--Bibliotecas de AnyCharts para el gráfico de barras-->
-  <div id="anychart-embed-modules--samples-anychart.fromjsonfile"
-    class="anychart-embed anychart-embed-modules--samples-anychart.fromjsonfile">
-    <script type="text/javascript" src="lib/anychart-base.min.js"></script>
-    <script type="text/javascript" src="lib/anychart-data-adapter.min.js"></script>
-    <script type="text/javascript" src="lib/anychart-exports.min.js"></script>
-    <script type="text/javascript" src="lib/anychart-ui.min.js"></script>
-    <!--CSS Principal-->
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <!-- Font-icon css-->
-    <link rel="stylesheet" type="text/css"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <!--Estilos del gràfico-->
-    <link rel="stylesheet" href="css/anychart-font.min.css">
-    <link rel="stylesheet" href="css/anychart-ui.min.css">
+  <!-- Main CSS-->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- Font-icon css-->
+  <link rel="stylesheet" type="text/css"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script type="text/javascript" src="lib/anychart-base.min.js"></script>
+  <script type="text/javascript" src="lib/anychart-data-adapter.min.js"></script>
+  <script type="text/javascript" src="lib/anychart-exports.min.js"></script>
+  <script type="text/javascript" src="lib/anychart-ui.min.js"></script>
+
+
+
+  <link rel="stylesheet" href="css/anychart-font.min.css">
+  <link rel="stylesheet" href="css/anychart-ui.min.css">
 
 </head>
 
 <body class="app sidebar-mini">
   <!-- Navbar-->
-  <header class="app-header"><a class="app-header__logo" href="dashboard.html">Vali</a>
+  <header class="app-header"><a class="app-header__logo" href="index.html">Anal&iacute;tica</a>
     <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar"
       aria-label="Hide Sidebar"></a>
     <!-- Navbar Right Menu-->
@@ -110,90 +110,106 @@
   <!-- Sidebar menu-->
   <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
   <aside class="app-sidebar">
-    <div class="app-sidebar__user"><img class="app-sidebar__user-avatar"
-        src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/48.jpg" alt="User Image">
+    <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="images/usuario.jpg" id="img"
+        alt="User Image">
       <div>
         <p class="app-sidebar__user-name">Giner Alor</p>
         <p class="app-sidebar__user-designation">Administrador</p>
       </div>
     </div>
     <ul class="app-menu">
-      <li><a class="app-menu__item active" href="dashboard.html"><i class="app-menu__icon fa fa-dashboard"></i><span
-            class="app-menu__label">Dashboard</span></a></li>
-      <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i
-            class="app-menu__icon fa fa-laptop"></i><span class="app-menu__label">Alumnos</span><i
+      <li><a class="app-menu__item active" href="index.html"><i class="app-menu__icon fa fa-dashboard"></i><span
+            class="app-menu__label">Inicio</span></a></li>
+      <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="fa fa-users"></i><span
+            class="app-menu__label">&nbsp;&nbsp;&nbsp;Alumnos</span><i
             class="treeview-indicator fa fa-angle-right"></i></a>
         <ul class="treeview-menu">
           <li><a class="treeview-item" href="alumnos-por-carrera.html"><i class="icon fa fa-circle-o"></i> Alumnos
-              inscritos</a></li>
-          <li><a class="treeview-item" href="bootstrap-componentsalumno2.html" target="_blank" rel="noopener"><i
+              por carrera</a></li>
+          <li><a class="treeview-item" href="alumnos-por-edad.html" target="_blank" rel="noopener"><i
                 class="icon fa fa-circle-o"></i> Alumnos por edad</a></li>
-          <li><a class="treeview-item" href="alumnos-por-sexo.html"><i class="icon fa fa-circle-o"></i>
-              Alumnos por sexo</a>
+          <li><a class="treeview-item" href="alumnos-por-sexo.html"><i class="icon fa fa-circle-o"></i> Alumnos por
+              sexo</a>
           </li>
-          <li><a class="treeview-item" href="bootstrap-componentsalumno4.html"><i class="icon fa fa-circle-o"></i>
+          <li><a class="treeview-item" href="alumnos-por-InstitucionEducativa.html"><i class="icon fa fa-circle-o"></i>
               Alumnos por institución
               educativa</a></li>
-          <li><a class="treeview-item" href="alumnos-historial-navegacion.html"><i class="icon fa fa-circle-o"></i> Historial de
+          <li><a class="treeview-item" href="alumnos-historial-navegacion.html"><i class="icon fa fa-circle-o"></i>
+              Historial de
               navegación</a></li>
 
         </ul>
       </li>
       <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i
-            class="app-menu__icon fa fa-laptop"></i><span class="app-menu__label">Profesores</span><i
+            class="fa fa-pencil-square-o"></i><span class="app-menu__label">&nbsp;&nbsp;&nbsp;Profesores</span><i
             class="treeview-indicator fa fa-angle-right"></i></a>
         <ul class="treeview-menu">
-          <li><a class="treeview-item" href="alumnos-por-carrera.html"><i class="icon fa fa-circle-o"></i> Profesores
+          <li><a class="treeview-item" href="profesores-con-mas-recursos.html"><i class="icon fa fa-circle-o"></i>
+              Profesores
               con más recursos</a></li>
-          <li><a class="treeview-item" href="https://fontawesome.com/v4.7.0/icons/" target="_blank" rel="noopener"><i
+          <li><a class="treeview-item" href="profesores-mas-seguidos.html" target="_blank" rel="noopener"><i
                 class="icon fa fa-circle-o"></i> Profesores más seguidos</a></li>
-          <li><a class="treeview-item" href="ui-cards.html"><i class="icon fa fa-circle-o"></i> Fecha de ingresos a la
+          <li><a class="treeview-item" href="profesores-fecha-ingreso.html"><i class="icon fa fa-circle-o"></i> Fecha de
+              ingresos a la
               plataforma</a></li>
+
+
         </ul>
       </li>
 
-      <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i
-            class="app-menu__icon fa fa-th-list"></i><span class="app-menu__label">Visualización de cursos</span><i
+      <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="fa fa-book"></i><span
+            class="app-menu__label">&nbsp;&nbsp;&nbsp;Cursos</span><i
             class="treeview-indicator fa fa-angle-right"></i></a>
         <ul class="treeview-menu">
-          <li><a class="treeview-item" href="table-basic.html"><i class="icon fa fa-circle-o"></i> Más buscados</a></li>
-          <li><a class="treeview-item" href="table-data-table.html"><i class="icon fa fa-circle-o"></i> Más
+          <li><a class="treeview-item" href="cursos-mas-buscados.html"><i class="icon fa fa-circle-o"></i> Más
+              buscados</a></li>
+          <li><a class="treeview-item" href="cursos-mas-visualizados.html"><i class="icon fa fa-circle-o"></i> Más
               visualizados</a></li>
-          <li><a class="treeview-item" href="table-basic.html"><i class="icon fa fa-circle-o"></i> Dispositivos en que
+          <li><a class="treeview-item" href="cursos-dispositivos-visualizan.html"><i class="icon fa fa-circle-o"></i>
+              Dispositivos en que
               los visualizan</a></li>
-          <li><a class="treeview-item" href="table-basic.html"><i class="icon fa fa-circle-o"></i> Más populares</a>
+          <li><a class="treeview-item" href="cursos-mas-populares.html"><i class="icon fa fa-circle-o"></i> Más
+              populares</a>
           </li>
-          <li><a class="treeview-item" href="table-basic.html"><i class="icon fa fa-circle-o"></i> Más descargados</a>
+          <li><a class="treeview-item" href="cursos-mas-descargados.html"><i class="icon fa fa-circle-o"></i> Más
+              descargados</a>
           </li>
-          <li><a class="treeview-item" href="table-basic.html"><i class="icon fa fa-circle-o"></i> Mejores
+          <li><a class="treeview-item" href="cursos-mejores-calificados.html"><i class="icon fa fa-circle-o"></i>
+              Mejores
               calificados</a></li>
-          <li><a class="treeview-item" href="table-basic.html"><i class="icon fa fa-circle-o"></i> Tiempo de
+          <li><a class="treeview-item" href="cursos-tiempo-visualizacion.html"><i class="icon fa fa-circle-o"></i>
+              Tiempo de
               Visualización del curso</a></li>
-
         </ul>
       </li>
 
       <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i
-            class="app-menu__icon fa fa-th-list"></i><span class="app-menu__label">Visualización de recursos</span><i
+            class="fa fa-file-archive-o"></i><span class="app-menu__label">&nbsp;&nbsp;&nbsp;Recursos</span><i
             class="treeview-indicator fa fa-angle-right"></i></a>
         <ul class="treeview-menu">
-          <li><a class="treeview-item" href="table-basic.html"><i class="icon fa fa-circle-o"></i> Más buscados</a></li>
-          <li><a class="treeview-item" href="table-data-table.html"><i class="icon fa fa-circle-o"></i> Más
+          <li><a class="treeview-item" href="recursos-mas-buscados.html"><i class="icon fa fa-circle-o"></i> Más
+              buscados</a></li>
+          <li><a class="treeview-item" href="recursos-mas-visualizados.html"><i class="icon fa fa-circle-o"></i> Más
               visualizados</a></li>
-          <li><a class="treeview-item" href="table-basic.html"><i class="icon fa fa-circle-o"></i> Dispositivos en que
+          <li><a class="treeview-item" href="recursos-dispositivos-visualizan.html"><i class="icon fa fa-circle-o"></i>
+              Dispositivos en que
               los visualizan</a></li>
-          <li><a class="treeview-item" href="table-basic.html"><i class="icon fa fa-circle-o"></i> Más populares</a>
+          <li><a class="treeview-item" href="recursos-mas-populares.html"><i class="icon fa fa-circle-o"></i> Más
+              populares</a>
           </li>
-          <li><a class="treeview-item" href="table-basic.html"><i class="icon fa fa-circle-o"></i> Más descargados</a>
+          <li><a class="treeview-item" href="recursos-mas-descargados.html"><i class="icon fa fa-circle-o"></i> Más
+              descargados</a>
           </li>
-          <li><a class="treeview-item" href="table-basic.html"><i class="icon fa fa-circle-o"></i> Mejores
+          <li><a class="treeview-item" href="recursos-mas-populares.html"><i class="icon fa fa-circle-o"></i> Mejores
               calificados</a></li>
-          <li><a class="treeview-item" href="table-basic.html"><i class="icon fa fa-circle-o"></i> Tiempo de
+          <li><a class="treeview-item" href="recursos-tiempo-visualizacion.html"><i class="icon fa fa-circle-o"></i>
+              Tiempo de
               Visualización del curso</a></li>
         </ul>
       </li>
     </ul>
   </aside>
+
 
   <main class="app-content">
     <div class="app-title">
@@ -204,18 +220,23 @@
         <!-- Buttons-->
         <div class="tile mb-4">
           <div class="page-header">
-            <div class="row">
+            <div class="row" class="grafico">
               <div class="col-lg-12">
-                <h2 class="mb-3 line-head" id="buttons">Grafico de barras de alumnos por sexo.</h2>
+                <h2 class="mb-3 line-head" id="buttons">Gráfico de Area de alumnos por edad.</h2>
               </div>
             </div>
           </div>
           <div class="row">
-            <div id="barras" class="graficoAmplio2"></div> <!--DIV DE LA GRAFICA charts5-->
+            <div id="container" class="graficoAmplio2"></div> <!--DIV DE LA GRAFICA charts5-->
           </div>
         </div>
       </div>
     </div>
+
+
+
+
+
 
   </main>
   <!-- Essential javascripts for application to work-->
@@ -231,9 +252,6 @@
     $('.bs-component [data-toggle="tooltip"]').tooltip();
   </script>
 </body>
-
-
-<!--Controlador del gráfico de barras-->
-<script src="js/controladorAlumnos/controladorSexo.js"></script>
+<script src="js/controladorAlumnos/controladorEdad.js"></script>
 
 </html>
