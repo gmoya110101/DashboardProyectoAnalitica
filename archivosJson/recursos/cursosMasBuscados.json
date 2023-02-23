@@ -1,0 +1,397 @@
+[
+    {
+        "id": "00",
+        "curso": "Recursos más buscados",
+        "parent": null
+    },
+    {
+        "parent": "00",
+        "id": "01",
+        "curso": "Sistemas",
+        "value": 692000
+    },
+    {
+        "parent": "00",
+        "id": "02",
+        "curso": "Química",
+        "value": 597000
+    },
+    {
+        "parent": "00",
+        "id": "03",
+        "curso": "Mecánica",
+        "value": 1359000
+    },
+    {
+        "parent": "00",
+        "id": "04",
+        "curso": "Electrónica",
+        "value": 596000
+    },
+    {
+        "parent": "00",
+        "id": "05",
+        "curso": "Gestión",
+        "value": 599000
+    },
+    {
+        "parent": "01",
+        "id": "11",
+        "curso": "Libros",
+        "value": 138000
+    },
+    {
+        "parent": "01",
+        "id": "12",
+        "curso": "Videos",
+        "value": 22000
+    },
+    {
+        "parent": "01",
+        "id": "13",
+        "curso": "Apuntes",
+        "value": 88000
+    },
+    {
+        "parent": "01",
+        "id": "14",
+        "curso": "Artículos",
+        "value": 77000
+    },
+    {
+        "parent": "01",
+        "id": "15",
+        "curso": "Folletos",
+        "value": 48000
+    },
+    {
+        "parent": "01",
+        "id": "16",
+        "curso": "Blogs",
+        "value": 48000
+    },
+    {
+        "parent": "01",
+        "id": "17",
+        "curso": "Síntesis",
+        "value": 41000
+    },
+    {
+        "parent": "01",
+        "id": "18",
+        "curso": "Guías",
+        "value": 39000
+    },
+    {
+        "parent": "01",
+        "id": "19",
+        "curso": "Tutoriales",
+        "value": 32000
+    },
+    {
+        "parent": "01",
+        "id": "111",
+        "curso": "Asesorías",
+        "value": 67000
+    },
+    {
+        "parent": "01",
+        "id": "112",
+        "curso": "Revistas",
+        "value": 23000
+    },
+    {
+        "parent": "01",
+        "id": "113",
+        "curso": "Wiki",
+        "value": 41000
+    },
+    {
+        "parent": "02",
+        "id": "21",
+        "curso": "Libros",
+        "value": 189000
+    },
+    {
+        "parent": "02",
+        "id": "22",
+        "curso": "Videos",
+        "value": 94000
+    },
+    {
+        "parent": "02",
+        "id": "23",
+        "curso": "Apuntes",
+        "value": 63000
+    },
+    {
+        "parent": "02",
+        "id": "24",
+        "curso": "Artículos",
+        "value": 43000
+    },
+    {
+        "parent": "02",
+        "id": "25",
+        "curso": "Folletos",
+        "value": 30000
+    },
+    {
+        "parent": "02",
+        "id": "26",
+        "curso": "Blogs",
+        "value": 29000
+    },
+    {
+        "parent": "02",
+        "id": "27",
+        "curso": "Síntesis",
+        "value": 26000
+    },
+    {
+        "parent": "02",
+        "id": "28",
+        "curso": "Guías",
+        "value": 23000
+    },
+    {
+        "parent": "02",
+        "id": "29",
+        "curso": "Tutoriales",
+        "value": 23000
+    },
+    {
+        "parent": "02",
+        "id": "211",
+        "curso": "Asesorías",
+        "value": 23000
+    },
+    {
+        "parent": "02",
+        "id": "212",
+        "curso": "Revistas",
+        "value": 23000
+    },
+    {
+        "parent": "02",
+        "id": "213",
+        "curso": "Wiki",
+        "value": 23000
+    },
+    {
+        "parent": "03",
+        "id": "31",
+        "curso": "Libros",
+        "value": 154000
+    },
+    {
+        "parent": "03",
+        "id": "32",
+        "curso": "Videos",
+        "value": 142000
+    },
+    {
+        "parent": "03",
+        "id": "33",
+        "curso": "Apuntes",
+        "value": 43000
+    },
+    {
+        "parent": "03",
+        "id": "34",
+        "curso": "Artículos",
+        "value": 38000
+    },
+    {
+        "parent": "03",
+        "id": "35",
+        "curso": "Folletos",
+        "value": 32000
+    },
+    {
+        "parent": "03",
+        "id": "36",
+        "curso": "Blogs",
+        "value": 154000
+    },
+    {
+        "parent": "03",
+        "id": "37",
+        "curso": "Síntesis",
+        "value": 142000
+    },
+    {
+        "parent": "03",
+        "id": "38",
+        "curso": "Guías",
+        "value": 43000
+    },
+    {
+        "parent": "03",
+        "id": "39",
+        "curso": "Tutoriales",
+        "value": 38000
+    },
+    {
+        "parent": "03",
+        "id": "311",
+        "curso": "Asesorías",
+        "value": 174000
+    },
+    {
+        "parent": "03",
+        "id": "312",
+        "curso": "Revistas",
+        "": 142000
+    },
+    {
+        "parent": "03",
+        "id": "313",
+        "curso": "Wiki",
+        "value": 43000
+    },
+    {
+        "parent": "04",
+        "id": "41",
+        "curso": "Libros",
+        "value": 154000
+    },
+    {
+        "parent": "04",
+        "id": "42",
+        "curso": "Videos",
+        "value": 142000
+    },
+    {
+        "parent": "04",
+        "id": "43",
+        "curso": "Apuntes",
+        "value": 43000
+    },
+    {
+        "parent": "04",
+        "id": "44",
+        "curso": "Artículos",
+        "value": 38000
+    },
+    {
+        "parent": "04",
+        "id": "45",
+        "curso": "Folletos",
+        "value": 32000
+    },
+    {
+        "parent": "04",
+        "id": "46",
+        "curso": "Blogs",
+        "value": 154000
+    },
+    {
+        "parent": "04",
+        "id": "47",
+        "curso": "Síntesis",
+        "value": 142000
+    },
+    {
+        "parent": "04",
+        "id": "48",
+        "curso": "Guías",
+        "value": 43000
+    },
+    {
+        "parent": "04",
+        "id": "49",
+        "curso": "Tutoriales",
+        "value": 38000
+    },
+    {
+        "parent": "04",
+        "id": "411",
+        "curso": "Asesorías",
+        "value": 174000
+    },
+    {
+        "parent": "04",
+        "id": "412",
+        "curso": "Revistas",
+        "": 142000
+    },
+    {
+        "parent": "04",
+        "id": "313",
+        "curso": "Wiki",
+        "value": 43000
+    },
+    {
+        "parent": "05",
+        "id": "51",
+        "curso": "Libros",
+        "value": 154000
+    },
+    {
+        "parent": "05",
+        "id": "52",
+        "curso": "Videos",
+        "value": 142000
+    },
+    {
+        "parent": "05",
+        "id": "35",
+        "curso": "Apuntes",
+        "value": 43000
+    },
+    {
+        "parent": "05",
+        "id": "54",
+        "curso": "Artículos",
+        "value": 38000
+    },
+    {
+        "parent": "05",
+        "id": "55",
+        "curso": "Folletos",
+        "value": 32000
+    },
+    {
+        "parent": "05",
+        "id": "56",
+        "curso": "Blogs",
+        "value": 154000
+    },
+    {
+        "parent": "05",
+        "id": "57",
+        "curso": "Síntesis",
+        "value": 142000
+    },
+    {
+        "parent": "05",
+        "id": "58",
+        "curso": "Guías",
+        "value": 43000
+    },
+    {
+        "parent": "05",
+        "id": "35",
+        "curso": "Tutoriales",
+        "value": 38000
+    },
+    {
+        "parent": "05",
+        "id": "511",
+        "curso": "Asesorías",
+        "value": 174000
+    },
+    {
+        "parent": "05",
+        "id": "512",
+        "curso": "Revistas",
+        "": 142000
+    },
+    {
+        "parent": "05",
+        "id": "13",
+        "curso": "Wiki",
+        "value": 43000
+    }
+]

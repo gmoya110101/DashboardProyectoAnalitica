@@ -1,0 +1,217 @@
+[
+    {
+        "id": "00",
+        "curso": "Cursos más buscados",
+        "parent": null
+    },
+    {
+        "parent": "00",
+        "id": "01",
+        "curso": "Sistemas",
+        "value": 692000
+    },
+    {
+        "parent": "00",
+        "id": "02",
+        "curso": "Química",
+        "value": 597000
+    },
+    {
+        "parent": "00",
+        "id": "03",
+        "curso": "Mecánica",
+        "value": 1359000
+    },
+    {
+        "parent": "00",
+        "id": "04",
+        "curso": "Electrónica",
+        "value": 596000
+    },
+    {
+        "parent": "00",
+        "id": "05",
+        "curso": "Gestión",
+        "value": 599000
+    },
+    {
+        "parent": "01",
+        "id": "11",
+        "curso": "POO",
+        "value": 138000
+    },
+    {
+        "parent": "01",
+        "id": "12",
+        "curso": "Programación lógica y funcional",
+        "value": 22000
+    },
+    {
+        "parent": "01",
+        "id": "13",
+        "curso": "Administración de bases de datos",
+        "value": 88000
+    },
+    {
+        "parent": "01",
+        "id": "14",
+        "curso": "Gestión de proyectos",
+        "value": 77000
+    },
+    {
+        "parent": "01",
+        "id": "15",
+        "curso": "Conmutación",
+        "value": 48000
+    },
+    {
+        "parent": "01",
+        "id": "16",
+        "curso": "Inteligencia artificial",
+        "value": 48000
+    },
+    {
+        "parent": "01",
+        "id": "17",
+        "curso": "Redes de computadora",
+        "value": 41000
+    },
+    {
+        "parent": "01",
+        "id": "18",
+        "curso": "Ingeniería de software",
+        "value": 39000
+    },
+    {
+        "parent": "01",
+        "id": "19",
+        "curso": "Taller de investigación",
+        "value": 32000
+    },
+    {
+        "parent": "02",
+        "id": "21",
+        "curso": "Química orgánica",
+        "value": 189000
+    },
+    {
+        "parent": "02",
+        "id": "22",
+        "curso": "Química inorgánica",
+        "value": 94000
+    },
+    {
+        "parent": "02",
+        "id": "23",
+        "curso": "Laboratorio integal ",
+        "value": 63000
+    },
+    {
+        "parent": "02",
+        "id": "24",
+        "curso": "Reactores químicos",
+        "value": 43000
+    },
+    {
+        "parent": "02",
+        "id": "25",
+        "curso": "Balance de materia y energía",
+        "value": 30000
+    },
+    {
+        "parent": "02",
+        "id": "26",
+        "curso": "Balance de momento",
+        "value": 29000
+    },
+    {
+        "parent": "02",
+        "id": "27",
+        "curso": "Transporte de fluidos",
+        "value": 26000
+    },
+    {
+        "parent": "02",
+        "id": "28",
+        "curso": "Ingeniería de costos",
+        "value": 23000
+    },
+    {
+        "parent": "03",
+        "id": "31",
+        "curso": "Termidinámica",
+        "value": 154000
+    },
+    {
+        "parent": "03",
+        "id": "32",
+        "curso": "Cinemática de las máquinas",
+        "value": 142000
+    },
+    {
+        "parent": "03",
+        "id": "33",
+        "curso": "Procesos de manufactura",
+        "value": 43000
+    },
+    {
+        "parent": "03",
+        "id": "34",
+        "curso": "Física moderna",
+        "value": 38000
+    },
+    {
+        "parent": "03",
+        "id": "35",
+        "curso": "Estática",
+        "value": 32000
+    },
+    {
+        "parent": "04",
+        "id": "41",
+        "curso": "Métodos",
+        "value": 154000
+    },
+    {
+        "parent": "04",
+        "id": "42",
+        "curso": "Circuitos",
+        "value": 142000
+    },
+    {
+        "parent": "04",
+        "id": "43",
+        "curso": "Estadística",
+        "value": 43000
+    },
+    {
+        "parent": "04",
+        "id": "44",
+        "curso": "Laboratorio de comunicaciones",
+        "value": 38000
+    },
+    {
+        "parent": "05",
+        "id": "51",
+        "curso": "Métodos",
+        "value": 174000
+    },
+    {
+        "parent": "05",
+        "id": "52",
+        "curso": "Legislación Laboral",
+        "": 142000
+    },
+    {
+        "parent": "05",
+        "id": "53",
+        "curso": "Desarrollo humano",
+        "value": 43000
+    },
+    {
+        "parent": "05",
+        "id": "54",
+        "curso": "Ingeniería de procesos",
+        "value": 38000
+    }
+]
