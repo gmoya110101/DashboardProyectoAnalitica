@@ -80,7 +80,7 @@ anychart.onDocumentReady(function () {
                 })
                 .format(function () {
                     return (
-                        '<span style="color: #bfbfbf">Valor: </span>' +
+                        '<span style="color: #bfbfbf">Numero: </span>' +
                         anychart.format.number(this.value, { groupsSeparator: ' ' })
                     );
                 });

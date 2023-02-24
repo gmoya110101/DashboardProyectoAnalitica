@@ -13,12 +13,12 @@
     href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--Biliotecas de AnyCharts-->
 
-  <div id="anychart-embed-modules--samples-anychart.fromjsonfile"
-    class="anychart-embed anychart-embed-modules--samples-anychart.fromjsonfile">
-    <script src="lib/anychart-base.min.js"></script>
-    <script src="lib/anychart-exports.min.js"></script>
-    <script src="lib/anychart-ui.min.js"></script>
-    <script src="lib/anychart-data-adapter.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-ui.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-exports.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-circular-gauge.min.js"></script>
+  
+
     <!--Extras-->
     <script src="https://cdn.anychart.com/releases/v8/js/anychart-graph.min.js"></script>
     <!--Estilo principal-->
@@ -205,7 +205,7 @@
           <li><a class="treeview-item" href="recursos-mas-descargados.html"><i class="icon fa fa-circle-o"></i> Más
               descargados</a>
           </li>
-          <li><a class="treeview-item" href="recursos-mas-populares.html"><i class="icon fa fa-circle-o"></i> Mejores
+          <li><a class="treeview-item" href="recursos-mejores-calificados.html"><i class="icon fa fa-circle-o"></i> Mejores
               calificados</a></li>
           <li><a class="treeview-item" href="recursos-tiempo-visualizacion.html"><i class="icon fa fa-circle-o"></i>
               Tiempo de
@@ -232,7 +232,7 @@
             </div>
           </div>
           <div class="row">
-            <div id="relacion" class="graficoAmplio"></div> <!--DIV DE LA GRAFICA de relación-->
+            <div id="container" class="graficoAmplio"></div> <!--DIV DE LA GRAFICA de relación-->
           </div>
         </div>
       </div>
@@ -256,8 +256,8 @@
 
   <!--Controlador del gráfico de pastel 3D-->
 
-  <script src="js/controladorProfesores/controladorMasRecursos.js"></script>
 
+  <script src="js/controladorRecursos/controladorMasDescargados.js"></script>
 
 
 </body>
