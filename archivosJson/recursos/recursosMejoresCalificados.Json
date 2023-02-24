@@ -1,0 +1,146 @@
+{
+    "nodes": [
+        {
+            "id": "Libros",
+            "group": 0
+        },
+        {
+            "id": "Videos",
+            "group": 2
+        },
+        {
+            "id": "Apuntes",
+            "group": 2
+        },
+        {
+            "id": "Artículos",
+            "group": 3
+        },
+        {
+            "id": "Folletos",
+            "group": 7
+        },
+        {
+            "id": "Blogs",
+            "group": 1
+        },
+        {
+            "id": "Síntesis",
+            "group": 5
+        },
+        {
+            "id": "Guías",
+            "group": 5
+        },
+        {
+            "id": "Tutoriales",
+            "group": 5
+        },
+        {
+            "id": "Asesorías",
+            "group": 0
+        },
+        {
+            "id": "Revistas",
+            "group": 2
+        },
+        {
+            "id": "Wiki",
+            "group": 6
+        },
+        {
+            "id": "Foros",
+            "group": 5
+        },
+        {
+            "id": "100",
+            "group": 4
+        },
+        {
+            "id": "95",
+            "group": 0
+        },
+        {
+            "id": "90",
+            "group": 0
+        },
+        {
+            "id": "85",
+            "group": 3
+        },
+        {
+            "id": "80",
+            "group": 1
+        },
+        {
+            "id": "70",
+            "group": 3
+        },
+        {
+            "id": "65",
+            "group": 6
+        },
+        {
+            "id": "60",
+            "group": 6
+        },
+        {
+            "id": "50",
+            "group": 7
+        }
+    ],
+    "edges": [
+        {
+            "from": "Libros",
+            "to": "80"
+        },
+        {
+            "from": "Videos",
+            "to": "85"
+        },
+        {
+            "from": "Apuntes",
+            "to": "90"
+        },
+        {
+            "from": "Artículos",
+            "to": "65"
+        },
+        {
+            "from": "Folletos",
+            "to": "90"
+        },
+        {
+            "from": "Blogs",
+            "to": "50"
+        },
+        {
+            "from": "Guías",
+            "to": "80"
+        },
+        {
+            "from": "Síntesis",
+            "to": "70"
+        },
+        {
+            "from": "Tutoriales",
+            "to": "70"
+        },
+        {
+            "from": "Asesorías",
+            "to": "60"
+        },
+        {
+            "from": "Revistas",
+            "to": "100"
+        },
+        {
+            "from": "Wiki",
+            "to": "95"
+        },
+        {
+            "from": "Foros",
+            "to": "50"
+        }
+    ]
+}

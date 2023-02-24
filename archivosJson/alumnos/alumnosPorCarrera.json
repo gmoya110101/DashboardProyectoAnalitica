@@ -6,20 +6,20 @@
         "total": "689"
     },
     {
-        "0": "Gestion",
-        "carrera": "Gestion",
+        "0": "Gestión",
+        "carrera": "Gestión",
         "1": "450",
         "total": "450"
     },
     {
-        "0": "Quimica",
-        "carrera": "Quimica",
+        "0": "Química",
+        "carrera": "Química",
         "1": "345",
         "total": "345"
     },
     {
-        "0": "Mecanica",
-        "carrera": "Mecanica",
+        "0": "Mecánica",
+        "carrera": "Mecánica",
         "1": "256",
         "total": "256"
     },
@@ -30,8 +30,8 @@
         "total": "789"
     },
     {
-        "0": "Electronica",
-        "carrera": "Electronica",
+        "0": "Electrónica",
+        "carrera": "Electrónica",
         "1": "140",
         "total": "140"
     }

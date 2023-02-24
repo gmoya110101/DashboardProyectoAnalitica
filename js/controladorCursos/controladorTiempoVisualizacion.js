@@ -1,7 +1,7 @@
 anychart.onDocumentReady(function () {
 
     anychart.data.loadJsonFile(//Obtiene el JSON
-        'https://api.npoint.io/af6950eec992ecb54f8c',
+        'https://api.npoint.io/359e191a24958ac665aa',
         function (data) {
 
             // Crea el gráfico de línea del tiempo

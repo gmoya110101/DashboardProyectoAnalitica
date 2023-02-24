@@ -1,14 +1,52 @@
 [
     {
-        "0": "Hombre",
-        "sexo": "Hombre",
-        "1": "6457",
-        "total": "6457"
+        "x": "Hombres",
+        "value": 6457,
+        "normal": {
+            "fill": "#3607F7",
+            "stroke": null,
+            "label": {
+                "enabled": true
+            }
+        },
+        "hovered": {
+            "fill": "#07F7C4",
+            "stroke": null,
+            "label": {
+                "enabled": true
+            }
+        },
+        "selected": {
+            "fill": "#07CFF7",
+            "stroke": null,
+            "label": {
+                "enabled": true
+            }
+        }
     },
     {
-        "0": "Mujer",
-        "sexo": "Mujer",
-        "1": "7013",
-        "total": "7013"
+        "x": "Mujeres",
+        "value": 7013,
+        "normal": {
+            "fill": "#F70769",
+            "stroke": null,
+            "label": {
+                "enabled": true
+            }
+        },
+        "hovered": {
+            "fill": "#F834AE",
+            "stroke": null,
+            "label": {
+                "enabled": true
+            }
+        },
+        "selected": {
+            "fill": "#EB07B0",
+            "stroke": null,
+            "label": {
+                "enabled": true
+            }
+        }
     }
 ]
