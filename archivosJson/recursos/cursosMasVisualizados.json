@@ -1,0 +1,787 @@
+[
+    {
+        "x": "Libros",
+        "y": "Enero",
+        "heat": 1704211
+    },
+    {
+        "x": "Libros",
+        "y": "Febrero",
+        "heat": 2782680
+    },
+    {
+        "x": "Libros",
+        "y": "Marzo",
+        "heat": 76543345
+    },
+    {
+        "x": "Libros",
+        "y": "Abril",
+        "heat": 9876543
+    },
+    {
+        "x": "Libros",
+        "y": "Mayo",
+        "heat": 1234567
+    },
+    {
+        "x": "Libros",
+        "y": "Junio",
+        "heat": 8393023
+    },
+    {
+        "x": "Libros",
+        "y": "Julio",
+        "heat": 3012392
+    },
+    {
+        "x": "Libros",
+        "y": "Agosto",
+        "heat": 4310928
+    },
+    {
+        "x": "Libros",
+        "y": "Septiembre",
+        "heat": 1827345
+    },
+    {
+        "x": "Libros",
+        "y": "Octubre",
+        "heat": 2992679
+    },
+    {
+        "x": "Libros",
+        "y": "Noviembre",
+        "heat": 8992679
+    },
+    {
+        "x": "Libros",
+        "y": "Diciembre",
+        "heat": 9023491
+    },
+    {
+        "x": "Videos",
+        "y": "Enero",
+        "heat": 2135235
+    },
+    {
+        "x": "Videos",
+        "y": "Febrero",
+        "heat": 3451363
+    },
+    {
+        "x": "Videos",
+        "y": "Marzo",
+        "heat": 7642742
+    },
+    {
+        "x": "Videos",
+        "y": "Abril",
+        "heat": 23467231
+    },
+    {
+        "x": "Videos",
+        "y": "Mayo",
+        "heat": 7524673
+    },
+    {
+        "x": "Videos",
+        "y": "Junio",
+        "heat": 8641334
+    },
+    {
+        "x": "Videos",
+        "y": "Julio",
+        "heat": 3451647
+    },
+    {
+        "x": "Videos",
+        "y": "Agosto",
+        "heat": 7424623
+    },
+    {
+        "x": "Videos",
+        "y": "Septiembre",
+        "heat": 5432647
+    },
+    {
+        "x": "Videos",
+        "y": "Octubre",
+        "heat": 2764324
+    },
+    {
+        "x": "Videos",
+        "y": "Noviembre",
+        "heat": 8563223
+    },
+    {
+        "x": "Videos",
+        "y": "Diciembre",
+        "heat": 6434544
+    },
+    {
+        "x": "Apuntes",
+        "y": "Enero",
+        "heat": 6432345
+    },
+    {
+        "x": "Apuntes",
+        "y": "Febrero",
+        "heat": 7642345
+    },
+    {
+        "x": "Apuntes",
+        "y": "Marzo",
+        "heat": 2345256
+    },
+    {
+        "x": "Apuntes",
+        "y": "Abril",
+        "heat": 7767889
+    },
+    {
+        "x": "Apuntes",
+        "y": "Mayo",
+        "heat": 9098908
+    },
+    {
+        "x": "Apuntes",
+        "y": "Junio",
+        "heat": 8386456
+    },
+    {
+        "x": "Apuntes",
+        "y": "Julio",
+        "heat": 2456748
+    },
+    {
+        "x": "Apuntes",
+        "y": "Agosto",
+        "heat": 9754345
+    },
+    {
+        "x": "Apuntes",
+        "y": "Septiembre",
+        "heat": 1457345
+    },
+    {
+        "x": "Apuntes",
+        "y": "Octubre",
+        "heat": 2987539
+    },
+    {
+        "x": "Apuntes",
+        "y": "Noviembre",
+        "heat": 8327679
+    },
+    {
+        "x": "Apuntes",
+        "y": "Diciembre",
+        "heat": 9053491
+    },
+    {
+        "x": "Artículos",
+        "y": "Enero",
+        "heat": 1544211
+    },
+    {
+        "x": "Artículos",
+        "y": "Febrero",
+        "heat": 2782680
+    },
+    {
+        "x": "Artículos",
+        "y": "Marzo",
+        "heat": 5671245
+    },
+    {
+        "x": "Artículos",
+        "y": "Abril",
+        "heat": 1247894
+    },
+    {
+        "x": "Artículos",
+        "y": "Mayo",
+        "heat": 9801234
+    },
+    {
+        "x": "Artículos",
+        "y": "Junio",
+        "heat": 8923451
+    },
+    {
+        "x": "Artículos",
+        "y": "Julio",
+        "heat": 1234567
+    },
+    {
+        "x": "Artículos",
+        "y": "Agosto",
+        "heat": 5436780
+    },
+    {
+        "x": "Artículos",
+        "y": "Septiembre",
+        "heat": 1127345
+    },
+    {
+        "x": "Artículos",
+        "y": "Octubre",
+        "heat": 6425674
+    },
+    {
+        "x": "Artículos",
+        "y": "Noviembre",
+        "heat": 9912679
+    },
+    {
+        "x": "Artículos",
+        "y": "Diciembre",
+        "heat": 1233491
+    },
+    {
+        "x": "Folletos",
+        "y": "Enero",
+        "heat": 1111211
+    },
+    {
+        "x": "Folletos",
+        "y": "Febrero",
+        "heat": 4582680
+    },
+    {
+        "x": "Folletos",
+        "y": "Marzo",
+        "heat": 76763345
+    },
+    {
+        "x": "Folletos",
+        "y": "Abril",
+        "heat": 4232543
+    },
+    {
+        "x": "Folletos",
+        "y": "Mayo",
+        "heat": 9012367
+    },
+    {
+        "x": "Folletos",
+        "y": "Junio",
+        "heat": 8543023
+    },
+    {
+        "x": "Folletos",
+        "y": "Julio",
+        "heat": 1012392
+    },
+    {
+        "x": "Folletos",
+        "y": "Agosto",
+        "heat": 5426528
+    },
+    {
+        "x": "Folletos",
+        "y": "Septiembre",
+        "heat": 1237345
+    },
+    {
+        "x": "Folletos",
+        "y": "Octubre",
+        "heat": 1993923
+    },
+    {
+        "x": "Folletos",
+        "y": "Noviembre",
+        "heat": 5392679
+    },
+    {
+        "x": "Folletos",
+        "y": "Diciembre",
+        "heat": 9023491
+    },
+    {
+        "x": "Blogs",
+        "y": "Enero",
+        "heat": 1014211
+    },
+    {
+        "x": "Blogs",
+        "y": "Febrero",
+        "heat": 1782680
+    },
+    {
+        "x": "Blogs",
+        "y": "Marzo",
+        "heat": 9043345
+    },
+    {
+        "x": "Blogs",
+        "y": "Abril",
+        "heat": 8001403
+    },
+    {
+        "x": "Blogs",
+        "y": "Mayo",
+        "heat": 4323890
+    },
+    {
+        "x": "Blogs",
+        "y": "Junio",
+        "heat": 8923223
+    },
+    {
+        "x": "Blogs",
+        "y": "Julio",
+        "heat": 3023392
+    },
+    {
+        "x": "Blogs",
+        "y": "Agosto",
+        "heat": 2345728
+    },
+    {
+        "x": "Blogs",
+        "y": "Septiembre",
+        "heat": 5907345
+    },
+    {
+        "x": "Blogs",
+        "y": "Octubre",
+        "heat": 1200009
+    },
+    {
+        "x": "Blogs",
+        "y": "Noviembre",
+        "heat": 7231679
+    },
+    {
+        "x": "Blogs",
+        "y": "Diciembre",
+        "heat": 9023491
+    },
+    {
+        "x": "Síntesis",
+        "y": "Enero",
+        "heat": 5604211
+    },
+    {
+        "x": "Síntesis",
+        "y": "Febrero",
+        "heat": 2746680
+    },
+    {
+        "x": "Síntesis",
+        "y": "Marzo",
+        "heat": 7901245
+    },
+    {
+        "x": "Síntesis",
+        "y": "Abril",
+        "heat": 9076543
+    },
+    {
+        "x": "Síntesis",
+        "y": "Mayo",
+        "heat": 1234567
+    },
+    {
+        "x": "Síntesis",
+        "y": "Junio",
+        "heat": 9093023
+    },
+    {
+        "x": "Síntesis",
+        "y": "Julio",
+        "heat": 3912392
+    },
+    {
+        "x": "Síntesis",
+        "y": "Agosto",
+        "heat": 3450928
+    },
+    {
+        "x": "Síntesis",
+        "y": "Septiembre",
+        "heat": 5827345
+    },
+    {
+        "x": "Síntesis",
+        "y": "Octubre",
+        "heat": 1292679
+    },
+    {
+        "x": "Síntesis",
+        "y": "Noviembre",
+        "heat": 9092679
+    },
+    {
+        "x": "Síntesis",
+        "y": "Diciembre",
+        "heat": 9023491
+    },
+    {
+        "x": "Síntesis",
+        "y": "Diciembre",
+        "heat": 9022340
+    },
+    {
+        "x": "Guías",
+        "y": "Enero",
+        "heat": 6539123
+    },
+    {
+        "x": "Guías",
+        "y": "Febrero",
+        "heat": 8912378
+    },
+    {
+        "x": "Guías",
+        "y": "Marzo",
+        "heat": 1920912
+    },
+    {
+        "x": "Guías",
+        "y": "Abril",
+        "heat": 9870901
+    },
+    {
+        "x": "Guías",
+        "y": "Mayo",
+        "heat": 1126712
+    },
+    {
+        "x": "Guías",
+        "y": "Junio",
+        "heat": 8930231
+    },
+    {
+        "x": "Guías",
+        "y": "Julio",
+        "heat": 7809112
+    },
+    {
+        "x": "Guías",
+        "y": "Agosto",
+        "heat": 1280928
+    },
+    {
+        "x": "Guías",
+        "y": "Septiembre",
+        "heat": 1827345
+    },
+    {
+        "x": "Guías",
+        "y": "Octubre",
+        "heat": 2012679
+    },
+    {
+        "x": "Guías",
+        "y": "Noviembre",
+        "heat": 902679
+    },
+    {
+        "x": "Guías",
+        "y": "Diciembre",
+        "heat": 2023491
+    },
+    {
+        "x": "Tutoriales",
+        "y": "Enero",
+        "heat": 5128212
+    },
+    {
+        "x": "Tutoriales",
+        "y": "Febrero",
+        "heat": 1392321
+    },
+    {
+        "x": "Tutoriales",
+        "y": "Marzo",
+        "heat": 5422222
+    },
+    {
+        "x": "Tutoriales",
+        "y": "Abril",
+        "heat": 6429254
+    },
+    {
+        "x": "Tutoriales",
+        "y": "Mayo",
+        "heat": 1272313
+    },
+    {
+        "x": "Tutoriales",
+        "y": "Junio",
+        "heat": 8633023
+    },
+    {
+        "x": "Tutoriales",
+        "y": "Julio",
+        "heat": 2471374
+    },
+    {
+        "x": "Tutoriales",
+        "y": "Agosto",
+        "heat": 9752721
+    },
+    {
+        "x": "Tutoriales",
+        "y": "Septiembre",
+        "heat": 9290134
+    },
+    {
+        "x": "Tutoriales",
+        "y": "Octubre",
+        "heat": 9611171
+    },
+    {
+        "x": "Tutoriales",
+        "y": "Noviembre",
+        "heat": 3239761
+    },
+    {
+        "x": "Tutoriales",
+        "y": "Diciembre",
+        "heat": 5412891
+    },
+    {
+        "x": "Asesorías",
+        "y": "Enero",
+        "heat": 7645127
+    },
+    {
+        "x": "Asesorías",
+        "y": "Febrero",
+        "heat": 1712789
+    },
+    {
+        "x": "Asesorías",
+        "y": "Marzo",
+        "heat": 1343157
+    },
+    {
+        "x": "Asesorías",
+        "y": "Abril",
+        "heat": 2575387
+    },
+    {
+        "x": "Asesorías",
+        "y": "Mayo",
+        "heat": 1232167
+    },
+    {
+        "x": "Asesorías",
+        "y": "Junio",
+        "heat": 9054228
+    },
+    {
+        "x": "Asesorías",
+        "y": "Julio",
+        "heat": 1228131
+    },
+    {
+        "x": "Asesorías",
+        "y": "Agosto",
+        "heat": 1390028
+    },
+    {
+        "x": "Asesorías",
+        "y": "Septiembre",
+        "heat": 6027345
+    },
+    {
+        "x": "Asesorías",
+        "y": "Octubre",
+        "heat": 7651431
+    },
+    {
+        "x": "Asesorías",
+        "y": "Noviembre",
+        "heat": 5422679
+    },
+    {
+        "x": "Asesorías",
+        "y": "Diciembre",
+        "heat": 3022391
+    },
+    {
+        "x": "Revistas",
+        "y": "Enero",
+        "heat": 4510002
+    },
+    {
+        "x": "Revistas",
+        "y": "Febrero",
+        "heat": 2392321
+    },
+    {
+        "x": "Revistas",
+        "y": "Marzo",
+        "heat": 8765441
+    },
+    {
+        "x": "Revistas",
+        "y": "Abril",
+        "heat": 9012341
+    },
+    {
+        "x": "Revistas",
+        "y": "Mayo",
+        "heat": 6534164
+    },
+    {
+        "x": "Revistas",
+        "y": "Junio",
+        "heat": 7642356
+    },
+    {
+        "x": "Revistas",
+        "y": "Julio",
+        "heat": 1231212
+    },
+    {
+        "x": "Revistas",
+        "y": "Agosto",
+        "heat": 5321563
+    },
+    {
+        "x": "Revistas",
+        "y": "Septiembre",
+        "heat": 9731467
+    },
+    {
+        "x": "Revistas",
+        "y": "Octubre",
+        "heat": 5437842
+    },
+    {
+        "x": "Revistas",
+        "y": "Noviembre",
+        "heat": 2347842
+    },
+    {
+        "x": "Revistas",
+        "y": "Diciembre",
+        "heat": 8632234
+    },
+    {
+        "x": "Wiki",
+        "y": "Enero",
+        "heat": 9876423
+    },
+    {
+        "x": "Wiki",
+        "y": "Febrero",
+        "heat": 6532463
+    },
+    {
+        "x": "Wiki",
+        "y": "Marzo",
+        "heat": 2987652
+    },
+    {
+        "x": "Wiki",
+        "y": "Abril",
+        "heat": 2353235
+    },
+    {
+        "x": "Wiki",
+        "y": "Mayo",
+        "heat": 5753423
+    },
+    {
+        "x": "Wiki",
+        "y": "Junio",
+        "heat": 2349128
+    },
+    {
+        "x": "Wiki",
+        "y": "Julio",
+        "heat": 87652813
+    },
+    {
+        "x": "Wiki",
+        "y": "Agosto",
+        "heat": 7653928
+    },
+    {
+        "x": "Wiki",
+        "y": "Septiembre",
+        "heat": 7654231
+    },
+    {
+        "x": "Wiki",
+        "y": "Octubre",
+        "heat": 7642343
+    },
+    {
+        "x": "Wiki",
+        "y": "Noviembre",
+        "heat": 2312562
+    },
+    {
+        "x": "Wiki",
+        "y": "Diciembre",
+        "heat": 3089491
+    },
+    {
+        "x": "Foros",
+        "y": "Enero",
+        "heat": 4587567
+    },
+    {
+        "x": "Foros",
+        "y": "Febrero",
+        "heat": 9122321
+    },
+    {
+        "x": "Foros",
+        "y": "Marzo",
+        "heat": 9017892
+    },
+    {
+        "x": "Foros",
+        "y": "Abril",
+        "heat": 5439254
+    },
+    {
+        "x": "Foros",
+        "y": "Mayo",
+        "heat": 9002313
+    },
+    {
+        "x": "Foros",
+        "y": "Junio",
+        "heat": 7013000
+    },
+    {
+        "x": "Foros",
+        "y": "Julio",
+        "heat": 1778012
+    },
+    {
+        "x": "Foros",
+        "y": "Agosto",
+        "heat": 8900028
+    },
+    {
+        "x": "Foros",
+        "y": "Septiembre",
+        "heat": 6542201
+    },
+    {
+        "x": "Foros",
+        "y": "Octubre",
+        "heat": 8900023
+    },
+    {
+        "x": "Foros",
+        "y": "Noviembre",
+        "heat": 2339761
+    },
+    {
+        "x": "Foros",
+        "y": "Diciembre",
+        "heat": 1200091
+    }
+]

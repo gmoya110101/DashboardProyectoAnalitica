@@ -1,0 +1,22 @@
+[
+    {
+        "x": "Teléfono",
+        "value": 8716543,
+        "size": 3
+    },
+    {
+        "x": "Computadora de escritorio",
+        "value": 10103423,
+        "size": 4
+    },
+    {
+        "x": "Laptop",
+        "value": 9097625,
+        "size": 4
+    },
+    {
+        "x": "Tableta",
+        "value": 531300,
+        "size": 1
+    }
+]

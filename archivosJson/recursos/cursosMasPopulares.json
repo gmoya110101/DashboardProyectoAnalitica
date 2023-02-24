@@ -1,0 +1,67 @@
+[
+    {
+        "x": "Libros",
+        "value": 1316000000,
+        "category": "Química"
+    },
+    {
+        "x": "Videos",
+        "value": 324982000,
+        "category": "Mecánica"
+    },
+    {
+        "x": "Apuntes",
+        "value": 263510000,
+        "category": "Mecánica"
+    },
+    {
+        "x": "Artículos",
+        "value": 207505000,
+        "category": "Mecánica"
+    },
+    {
+        "x": "Folletos",
+        "value": 196459000,
+        "category": "Sistemas"
+    },
+    {
+        "x": "Blogs",
+        "value": 191836000,
+        "category": "Sistemas"
+    },
+    {
+        "x": "Síntesis",
+        "value": 162459000,
+        "category": "Electrónica"
+    },
+    {
+        "x": "Guías",
+        "value": 146804372,
+        "category": "Química"
+    },
+    {
+        "x": "Tutoriales",
+        "value": 126790000,
+        "category": "Química"
+    },
+    {
+        "x": "Asesorías",
+        "value": 123518000,
+        "category": "Química"
+    },
+    {
+        "x": "Revistas",
+        "value": 104345000,
+        "category": "Química"
+    },
+    {
+        "x": "Wiki",
+        "value": 104037000,
+        "category": "Sistemas"
+    },
+    {
+        "x": "Foros",
+        "value": 93013300,
+        "category": "Química"
+    }
+]
