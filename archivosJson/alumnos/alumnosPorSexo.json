@@ -35,7 +35,7 @@
             }
         },
         "hovered": {
-            "fill": "#F834AE",
+            "fill": "#E84AF8",
             "stroke": null,
             "label": {
                 "enabled": true
