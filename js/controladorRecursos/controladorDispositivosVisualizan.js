@@ -20,6 +20,10 @@ anychart.onDocumentReady(function () {
       chart.xAxis().title("Dispositivos");
       chart.yAxis().title("Visualizaciones");
 
+      //Para mantener el tamaño
+      chart.minBubbleSize("3%");
+      chart.maxBubbleSize("10%");
+
       // Dibuja el gráficoF
       chart.container("bubble");
       chart.draw();
