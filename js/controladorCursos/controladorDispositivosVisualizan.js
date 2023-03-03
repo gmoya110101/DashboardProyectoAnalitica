@@ -1,7 +1,7 @@
 anychart.onDocumentReady(function () {
 
   anychart.data.loadJsonFile(
-    'https://api.npoint.io/595b7efdc3de3a5d4082',
+    'https://api.npoint.io/5520c11d069aeaca8ac6',
     function (data) {
 
       // create a chart
@@ -19,6 +19,10 @@ anychart.onDocumentReady(function () {
       // set axes titles 
       chart.xAxis().title("Dispositivos");
       chart.yAxis().title("Visualizaciones");
+
+      //Para mantener el tamaño
+      chart.minBubbleSize("3%");
+      chart.maxBubbleSize("10%");
 
       // draw
       chart.container("bubble");

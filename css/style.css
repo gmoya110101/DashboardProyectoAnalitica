@@ -6,6 +6,12 @@
   padding: 0;
 }
 
+#logo{
+  width: 150px;
+  height: 50px;
+  padding: 4px;
+}
+
 .graficoAmplio {
 
   width: 65.625em;
