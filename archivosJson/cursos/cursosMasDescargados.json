@@ -1,0 +1,631 @@
+{
+    "gauge": {
+      "zIndex": 0,
+      "enabled": true,
+      "type": "circular-gauge",
+      "title": {
+        "zIndex": 80,
+        "enabled": true,
+        "maxLength": null,
+        "fontSize": 16,
+        "fontFamily": "Verdana, Helvetica, Arial, sans-serif",
+        "fontColor": "#7c868e",
+        "fontOpacity": 1,
+        "fontDecoration": "none",
+        "fontStyle": "normal",
+        "fontVariant": "normal",
+        "fontWeight": "normal",
+        "letterSpacing": "normal",
+        "textDirection": "ltr",
+        "textShadow": "none",
+        "lineHeight": "normal",
+        "textIndent": 0,
+        "vAlign": "top",
+        "hAlign": "center",
+        "wordWrap": "normal",
+        "wordBreak": "normal",
+        "textOverflow": "",
+        "selectable": false,
+        "disablePointerEvents": false,
+        "useHtml": true,
+        "width": null,
+        "height": null,
+        "align": "center",
+        "text": "Medicine manufacturing progress<br/><span style=\"color:#929292; font-size: 12px;\">(ACME CORPORATION)</span>",
+        "margin": {
+          "left": 0,
+          "top": 0,
+          "bottom": 20,
+          "right": 0
+        },
+        "padding": {
+          "left": 0,
+          "top": 0,
+          "bottom": 0,
+          "right": 0
+        },
+        "background": {
+          "zIndex": 0,
+          "enabled": false
+        }
+      },
+      "background": {
+        "zIndex": 0.5,
+        "enabled": true
+      },
+      "tooltip": {
+        "enabled": true,
+        "title": {
+          "zIndex": 1,
+          "enabled": false,
+          "maxLength": null,
+          "fontSize": 14,
+          "fontFamily": "Verdana, Helvetica, Arial, sans-serif",
+          "fontColor": "#ffffff",
+          "fontOpacity": 1,
+          "fontDecoration": "none",
+          "fontStyle": "normal",
+          "fontVariant": "normal",
+          "fontWeight": "normal",
+          "letterSpacing": "normal",
+          "textDirection": "ltr",
+          "textShadow": "none",
+          "lineHeight": "normal",
+          "textIndent": 0,
+          "vAlign": "top",
+          "hAlign": "left",
+          "wordWrap": "normal",
+          "wordBreak": "normal",
+          "textOverflow": "",
+          "selectable": false,
+          "disablePointerEvents": false,
+          "useHtml": false,
+          "width": null,
+          "height": null,
+          "align": "left",
+          "orientation": "top",
+          "rotation": 0,
+          "text": "",
+          "margin": {
+            "left": 0,
+            "top": 0,
+            "bottom": 0,
+            "right": 0
+          },
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "bottom": 0,
+            "right": 0
+          },
+          "background": {
+            "enabled": false
+          }
+        },
+        "separator": {
+          "zIndex": 1,
+          "enabled": false,
+          "fill": {
+            "color": "#CECECE",
+            "opacity": 0.3
+          },
+          "stroke": "none",
+          "width": "100%",
+          "height": 1,
+          "orientation": "top",
+          "margin": {
+            "left": 0,
+            "top": 5,
+            "bottom": 5,
+            "right": 0
+          }
+        },
+        "background": {
+          "zIndex": 0,
+          "enabled": true
+        }
+      },
+      "margin": {
+        "left": 50,
+        "top": 50,
+        "bottom": 50,
+        "right": 50
+      },
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "a11y": {
+        "enabled": true,
+        "mode": "chart-elements"
+      },
+      "autoRedraw": true,
+      "chartLabels": [
+        {
+          "zIndex": 50,
+          "enabled": true,
+          "fontSize": 13,
+          "fontFamily": "Verdana, Helvetica, Arial, sans-serif",
+          "fontColor": "#7c868e",
+          "fontOpacity": 1,
+          "fontDecoration": "none",
+          "fontStyle": "normal",
+          "fontVariant": "normal",
+          "fontWeight": "normal",
+          "letterSpacing": "normal",
+          "textDirection": "ltr",
+          "textShadow": "none",
+          "lineHeight": "normal",
+          "textIndent": 0,
+          "vAlign": "middle",
+          "hAlign": "center",
+          "wordWrap": "normal",
+          "wordBreak": "normal",
+          "textOverflow": "",
+          "selectable": false,
+          "disablePointerEvents": false,
+          "useHtml": true,
+          "text": "Temazepam, <span style=\"\">23%</span>",
+          "position": "left-top",
+          "width": null,
+          "height": "8.5%",
+          "anchor": "right-center",
+          "offsetX": 0,
+          "offsetY": "100%",
+          "rotation": 0,
+          "adjustFontSize": {
+            "width": false,
+            "height": false
+          },
+          "minFontSize": 8,
+          "maxFontSize": 72,
+          "background": {
+            "enabled": false
+          },
+          "padding": {
+            "left": 10,
+            "top": 0,
+            "bottom": 0,
+            "right": 10
+          }
+        },
+        {
+          "zIndex": 50,
+          "enabled": true,
+          "fontSize": 13,
+          "fontFamily": "Verdana, Helvetica, Arial, sans-serif",
+          "fontColor": "#7c868e",
+          "fontOpacity": 1,
+          "fontDecoration": "none",
+          "fontStyle": "normal",
+          "fontVariant": "normal",
+          "fontWeight": "normal",
+          "letterSpacing": "normal",
+          "textDirection": "ltr",
+          "textShadow": "none",
+          "lineHeight": "normal",
+          "textIndent": 0,
+          "vAlign": "middle",
+          "hAlign": "center",
+          "wordWrap": "normal",
+          "wordBreak": "normal",
+          "textOverflow": "",
+          "selectable": false,
+          "disablePointerEvents": false,
+          "useHtml": true,
+          "text": "Guaifenesin, <span style=\"\">34%</span>",
+          "position": "left-top",
+          "width": null,
+          "height": "8.5%",
+          "anchor": "right-center",
+          "offsetX": 0,
+          "offsetY": "80%",
+          "rotation": 0,
+          "adjustFontSize": {
+            "width": false,
+            "height": false
+          },
+          "minFontSize": 8,
+          "maxFontSize": 72,
+          "background": {
+            "enabled": false
+          },
+          "padding": {
+            "left": 10,
+            "top": 0,
+            "bottom": 0,
+            "right": 10
+          }
+        },
+        {
+          "zIndex": 50,
+          "enabled": true,
+          "fontSize": 13,
+          "fontFamily": "Verdana, Helvetica, Arial, sans-serif",
+          "fontColor": "#7c868e",
+          "fontOpacity": 1,
+          "fontDecoration": "none",
+          "fontStyle": "normal",
+          "fontVariant": "normal",
+          "fontWeight": "normal",
+          "letterSpacing": "normal",
+          "textDirection": "ltr",
+          "textShadow": "none",
+          "lineHeight": "normal",
+          "textIndent": 0,
+          "vAlign": "middle",
+          "hAlign": "center",
+          "wordWrap": "normal",
+          "wordBreak": "normal",
+          "textOverflow": "",
+          "selectable": false,
+          "disablePointerEvents": false,
+          "useHtml": true,
+          "text": "Salicylic Acid, <span style=\"\">67%</span>",
+          "position": "left-top",
+          "width": null,
+          "height": "8.5%",
+          "anchor": "right-center",
+          "offsetX": 0,
+          "offsetY": "60%",
+          "rotation": 0,
+          "adjustFontSize": {
+            "width": false,
+            "height": false
+          },
+          "minFontSize": 8,
+          "maxFontSize": 72,
+          "background": {
+            "enabled": false
+          },
+          "padding": {
+            "left": 10,
+            "top": 0,
+            "bottom": 0,
+            "right": 10
+          }
+        },
+        {
+          "zIndex": 50,
+          "enabled": true,
+          "fontSize": 13,
+          "fontFamily": "Verdana, Helvetica, Arial, sans-serif",
+          "fontColor": "#7c868e",
+          "fontOpacity": 1,
+          "fontDecoration": "none",
+          "fontStyle": "normal",
+          "fontVariant": "normal",
+          "fontWeight": "normal",
+          "letterSpacing": "normal",
+          "textDirection": "ltr",
+          "textShadow": "none",
+          "lineHeight": "normal",
+          "textIndent": 0,
+          "vAlign": "middle",
+          "hAlign": "center",
+          "wordWrap": "normal",
+          "wordBreak": "normal",
+          "textOverflow": "",
+          "selectable": false,
+          "disablePointerEvents": false,
+          "useHtml": true,
+          "text": "Fluoride, <span style=\"\">93%</span>",
+          "position": "left-top",
+          "width": null,
+          "height": "8.5%",
+          "anchor": "right-center",
+          "offsetX": 0,
+          "offsetY": "40%",
+          "rotation": 0,
+          "adjustFontSize": {
+            "width": false,
+            "height": false
+          },
+          "minFontSize": 8,
+          "maxFontSize": 72,
+          "background": {
+            "enabled": false
+          },
+          "padding": {
+            "left": 10,
+            "top": 0,
+            "bottom": 0,
+            "right": 10
+          }
+        },
+        {
+          "zIndex": 50,
+          "enabled": true,
+          "fontSize": 13,
+          "fontFamily": "Verdana, Helvetica, Arial, sans-serif",
+          "fontColor": "#7c868e",
+          "fontOpacity": 1,
+          "fontDecoration": "none",
+          "fontStyle": "normal",
+          "fontVariant": "normal",
+          "fontWeight": "normal",
+          "letterSpacing": "normal",
+          "textDirection": "ltr",
+          "textShadow": "none",
+          "lineHeight": "normal",
+          "textIndent": 0,
+          "vAlign": "middle",
+          "hAlign": "center",
+          "wordWrap": "normal",
+          "wordBreak": "normal",
+          "textOverflow": "",
+          "selectable": false,
+          "disablePointerEvents": false,
+          "useHtml": true,
+          "text": "Zinc Oxide, <span style=\"\">56%</span>",
+          "position": "left-top",
+          "width": null,
+          "height": "8.5%",
+          "anchor": "right-center",
+          "offsetX": 0,
+          "offsetY": "20%",
+          "rotation": 0,
+          "adjustFontSize": {
+            "width": false,
+            "height": false
+          },
+          "minFontSize": 8,
+          "maxFontSize": 72,
+          "background": {
+            "enabled": false
+          },
+          "padding": {
+            "left": 10,
+            "top": 0,
+            "bottom": 0,
+            "right": 10
+          }
+        }
+      ],
+      "bounds": {},
+      "contextMenu": {
+        "enabled": true
+      },
+      "credits": {
+        "text": "AnyChart",
+        "url": "https://www.anychart.com/?utm_source=registered",
+        "alt": "AnyChart - JavaScript Charts designed to be embedded and integrated{{anychart-version}}",
+        "imgAlt": "AnyChart - JavaScript Charts",
+        "logoSrc": "https://static.anychart.com/logo.png",
+        "enabled": false
+      },
+      "selectRectangleMarqueeFill": {
+        "color": "#d3d3d3",
+        "opacity": 0.4
+      },
+      "selectRectangleMarqueeStroke": "#d3d3d3",
+      "fill": "#fff",
+      "stroke": "none",
+      "startAngle": 0,
+      "circularPadding": "10%",
+      "encloseWithStraightLine": false,
+      "sweepAngle": 270,
+      "defaultPointerType": "needle",
+      "data": [
+        23,
+        34,
+        67,
+        93,
+        56,
+        100
+      ],
+      "interactivity": {
+        "spotRadius": 2,
+        "multiSelectOnClick": false,
+        "unselectOnClickOutOfPoint": true,
+        "hoverMode": "single",
+        "selectionMode": "multi-select"
+      },
+      "axes": [
+        {
+          "zIndex": 10,
+          "enabled": true,
+          "fill": "none",
+          "overlapMode": "no-overlap",
+          "startAngle": null,
+          "width": "1%",
+          "radius": "100%",
+          "cornersRounding": "0%",
+          "drawFirstLabel": true,
+          "drawLastLabel": true,
+          "scale": {
+            "type": "linear",
+            "inverted": false,
+            "maximum": 100,
+            "minimum": 0,
+            "minimumGap": 0.1,
+            "maximumGap": 0.1,
+            "softMinimum": null,
+            "softMaximum": null,
+            "alignMinimum": true,
+            "alignMaximum": true,
+            "maxTicksCount": 1000,
+            "ticks": {
+              "mode": "linear",
+              "base": 0,
+              "allowFractional": true,
+              "interval": 1
+            },
+            "minorTicks": {
+              "mode": "linear",
+              "base": 0,
+              "allowFractional": true,
+              "interval": 1
+            },
+            "stackMode": "none",
+            "stackDirection": "direct",
+            "stickToZero": true,
+            "comparisonMode": "none"
+          },
+          "ticks": {
+            "zIndex": 10,
+            "enabled": false,
+            "length": null,
+            "type": "line",
+            "stroke": "none",
+            "fill": "#545f69",
+            "hatchFill": "none",
+            "position": "center"
+          },
+          "minorTicks": {
+            "zIndex": 10,
+            "enabled": false,
+            "length": null,
+            "type": "line",
+            "stroke": "none",
+            "fill": "#545f69",
+            "hatchFill": "none",
+            "position": "center"
+          },
+          "labels": {
+            "zIndex": 10.00004,
+            "enabled": false
+          },
+          "minorLabels": {
+            "zIndex": 10.00004,
+            "enabled": false
+          }
+        }
+      ],
+      "pointers": [
+        {
+          "zIndex": 5,
+          "enabled": true,
+          "stroke": "none",
+          "fill": "#64b5f6",
+          "hatchFill": "none",
+          "axisIndex": 0,
+          "pointerType": "bar",
+          "dataIndex": 0,
+          "width": "17%",
+          "position": "center",
+          "radius": "100%"
+        },
+        {
+          "zIndex": 4,
+          "enabled": true,
+          "stroke": "none",
+          "fill": "#F5F4F4",
+          "hatchFill": "none",
+          "axisIndex": 0,
+          "pointerType": "bar",
+          "dataIndex": 5,
+          "width": "17%",
+          "position": "center",
+          "radius": "100%"
+        },
+        {
+          "zIndex": 5,
+          "enabled": true,
+          "stroke": "none",
+          "fill": "#1976d2",
+          "hatchFill": "none",
+          "axisIndex": 0,
+          "pointerType": "bar",
+          "dataIndex": 1,
+          "width": "17%",
+          "position": "center",
+          "radius": "80%"
+        },
+        {
+          "zIndex": 4,
+          "enabled": true,
+          "stroke": "none",
+          "fill": "#F5F4F4",
+          "hatchFill": "none",
+          "axisIndex": 0,
+          "pointerType": "bar",
+          "dataIndex": 5,
+          "width": "17%",
+          "position": "center",
+          "radius": "80%"
+        },
+        {
+          "zIndex": 5,
+          "enabled": true,
+          "stroke": "none",
+          "fill": "#ef6c00",
+          "hatchFill": "none",
+          "axisIndex": 0,
+          "pointerType": "bar",
+          "dataIndex": 2,
+          "width": "17%",
+          "position": "center",
+          "radius": "60%"
+        },
+        {
+          "zIndex": 4,
+          "enabled": true,
+          "stroke": "none",
+          "fill": "#F5F4F4",
+          "hatchFill": "none",
+          "axisIndex": 0,
+          "pointerType": "bar",
+          "dataIndex": 5,
+          "width": "17%",
+          "position": "center",
+          "radius": "60%"
+        },
+        {
+          "zIndex": 5,
+          "enabled": true,
+          "stroke": "none",
+          "fill": "#ffd54f",
+          "hatchFill": "none",
+          "axisIndex": 0,
+          "pointerType": "bar",
+          "dataIndex": 3,
+          "width": "17%",
+          "position": "center",
+          "radius": "40%"
+        },
+        {
+          "zIndex": 4,
+          "enabled": true,
+          "stroke": "none",
+          "fill": "#F5F4F4",
+          "hatchFill": "none",
+          "axisIndex": 0,
+          "pointerType": "bar",
+          "dataIndex": 5,
+          "width": "17%",
+          "position": "center",
+          "radius": "40%"
+        },
+        {
+          "zIndex": 5,
+          "enabled": true,
+          "stroke": "none",
+          "fill": "#455a64",
+          "hatchFill": "none",
+          "axisIndex": 0,
+          "pointerType": "bar",
+          "dataIndex": 4,
+          "width": "17%",
+          "position": "center",
+          "radius": "20%"
+        },
+        {
+          "zIndex": 4,
+          "enabled": true,
+          "stroke": "none",
+          "fill": "#F5F4F4",
+          "hatchFill": "none",
+          "axisIndex": 0,
+          "pointerType": "bar",
+          "dataIndex": 5,
+          "width": "17%",
+          "position": "center",
+          "radius": "20%"
+        }
+      ]
+    }
+  }
+                  

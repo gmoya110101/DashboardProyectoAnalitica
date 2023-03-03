@@ -170,7 +170,8 @@ a {
 
 a:hover {
   /*color: #b81414;*/
-  color: #004a43;
+ /* color: #004a43;*/
+  color: #20a2f1;
   text-decoration: underline;
 }
 
@@ -2631,7 +2632,7 @@ fieldset:disabled a.btn {
 .btn-primary:hover {
   color: #FFF;
   background-color: #007065;
-  border-color: #00635a;
+  border-color: 20a2f1;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2648,7 +2649,7 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #FFF;
-  background-color: #00635a;
+  background-color: 20a2f1;
   border-color: #00564e;
 }
 
@@ -5346,7 +5347,7 @@ a.badge:hover, a.badge:focus {
 
 a.badge-primary:hover, a.badge-primary:focus {
   color: #FFF;
-  background-color: #00635a;
+  background-color: 20a2f1;
 }
 
 a.badge-primary:focus, a.badge-primary.focus {
@@ -6977,7 +6978,7 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #00635a !important;
+  background-color: #20a2f1 !important;
 }
 
 .bg-secondary {
@@ -12012,7 +12013,7 @@ body.stop-scrolling {
 }
 
 .sweet-alert button:active {
-  background-color: #00635a;
+  background-color: 20a2f1;
 }
 
 .sweet-alert button.cancel {
@@ -14826,12 +14827,12 @@ be a descendant of the grid when it is being dragged.
 
 ::-moz-selection {
   color: #FFF;
-  background-color: #00635a;
+  background-color: 20a2f1;
 }
 
 ::selection {
   color: #FFF;
-  background-color: #00635a;
+  background-color: 20a2f1;
 }
 
 @media (min-width: 768px) {
@@ -14927,7 +14928,7 @@ be a descendant of the grid when it is being dragged.
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #df4a43;/* Barra superior*/
+  background-color: #df4a43;/* menu Barra superior*/
   z-index: 1030;
   padding-right: 15px;
 }
@@ -14964,7 +14965,7 @@ be a descendant of the grid when it is being dragged.
             flex: 0 0 auto;
     display: block;
     width: 230px;
-    background-color: #df4a43;
+    background-color: #e5e5e5;
   }
 }
 
@@ -14998,7 +14999,7 @@ be a descendant of the grid when it is being dragged.
 
 .app-sidebar__toggle:focus, .app-sidebar__toggle:hover {
   color: #fff;
-  background-color: #00635a;
+  background-color: 20a2f1;
   text-decoration: none;
 }
 
@@ -15165,7 +15166,7 @@ be a descendant of the grid when it is being dragged.
   width: 230px;
   overflow: auto;
   z-index: 10;
-  background-color: #E5E5E5; /*color del menu*/
+  background-color: #E5E5E5; /*color del menu izquierdo*/
 
   opacity: 1;
   
@@ -15265,7 +15266,7 @@ be a descendant of the grid when it is being dragged.
 }
 
 .app-menu__item.active, .app-menu__item:hover, .app-menu__item:focus { /* inicio*/
-  background: #e5e5e5	;/*Color del menu izquierdo */
+  background: #e5e5e5	;/*Color del menu izquierdo INICO */
   border-left-color: #df4a43;
   text-decoration: none;
   color: 	#000000;
@@ -15306,7 +15307,7 @@ be a descendant of the grid when it is being dragged.
   -webkit-transition: max-height 0.3s ease;
   -o-transition: max-height 0.3s ease;
   transition: max-height 0.3s ease;
-  background: #2a383e;/* color del menu que despliega*/
+  background:   #e74c3c ;/* color del menu que despliega DEL FONDO*/
   opacity: .7;
 }
 
@@ -15323,7 +15324,7 @@ be a descendant of the grid when it is being dragged.
 }
 
 .treeview-item.active, .treeview-item:hover, .treeview-item:focus {
-  background: #2C3E50; /*Color dentro del menu */
+  background: #2C3E50; /*Color dentro del menu CUANDO NAVEGAS */
   text-decoration: none;
   color: #fff;
 }
