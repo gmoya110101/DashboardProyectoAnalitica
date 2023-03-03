@@ -1,4 +1,3 @@
-
 var names = [
   'Temazepam',
   'Guaifenesin',
@@ -10,7 +9,7 @@ var names = [
 
   
 ];
-var data = [23, 34, 67, 93, 56, 100, 22];
+var data = [0, 34, 67, 93, 56, 100, 22];
 
 var dataSet = anychart.data.set(data);
 var palette = anychart.palettes
@@ -32,15 +31,15 @@ var makeBarWithBar = function (gauge, radius, i, width) {
   var stroke = null;//sin controno 
   gauge
     .label(i)
-    .text(names[i] + ', <span style="">' + data[i] + '%</span>') // color: #7c868e
+    .text(names[i] + ', <span style="  "> ' + data[i] + '%</span> ') // color: #7c868e
     .useHtml(true);
   gauge
     .label(i)
     .hAlign('center')
-    .vAlign('middle')
+    .vAlign('center')
     .anchor('right-center')  //darle especificaciones a las palabras
     .padding(0, 10)
-    .height(width / 2 + '%')
+    .height(width / 1.5 + '%')
     .offsetY(radius + '%')
     .offsetX(0);
 
@@ -54,7 +53,7 @@ var makeBarWithBar = function (gauge, radius, i, width) {
     .zIndex(5);
   gauge
     .bar(i + 100)
-    .dataIndex(5)//barra sobrante max 5
+    .dataIndex(i)//barra sobrante max 5
     .radius(radius)
     .width(width)
     .fill('#F5F4F4')
@@ -73,7 +72,7 @@ anychart.onDocumentReady(function () {
     .padding(0)
     .margin(100)
     .startAngle(0)
-    .sweepAngle(270);
+    .sweepAngle(270);//angulo del gráfico
 
   var axis = gauge.axis().radius(100).width(1).fill(null);
   axis
@@ -105,7 +104,7 @@ anychart.onDocumentReady(function () {
 
   console.log(data[0]);
 
-  gauge.margin(50);
+  gauge.margin(80);
 
   gauge.container('container');
   gauge.draw();
