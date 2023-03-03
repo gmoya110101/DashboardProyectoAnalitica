@@ -8,7 +8,9 @@ anychart.onDocumentReady(function () {
       var chart = anychart.area(data);
       chart.animation(true);
 
-      chart.title('Alumnos por Edad');
+      chart.title('Alumnos por edad');
+      chart.xAxis().title('Edad');
+      chart.yAxis().title('Total de alumnos');
       chart.container('container');
       chart.draw();
     }

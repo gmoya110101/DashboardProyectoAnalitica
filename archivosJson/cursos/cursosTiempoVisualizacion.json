@@ -2,49 +2,49 @@
     {
         "end": "2023/05/04",
         "fill": "#01b53f",
-        "name": "Juan",
+        "name": "POO",
         "start": "2023/01/22",
         "stroke": "#01b53f"
     },
     {
         "end": "2023/06/18",
         "fill": "#1c4598",
-        "name": "Israel",
+        "name": "Integral",
         "start": "2023/02/04",
         "stroke": "#1c4598"
     },
     {
         "end": "2023/03/22",
         "fill": "#ff6600",
-        "name": "Jesus",
+        "name": "Diferencial",
         "start": "2023/02/18",
         "stroke": "#ff6600"
     },
     {
         "end": "2023/04/05",
         "fill": "#00a8e0",
-        "name": "Kenia Os",
+        "name": "Álgebra",
         "start": "2023/03/22",
         "stroke": "#00a8e0"
     },
     {
         "end": "2023/01/19",
         "fill": "#f6bc16",
-        "name": "Gera",
+        "name": "Procesos",
         "start": "2023/04/05",
         "stroke": "#f6bc16"
     },
     {
         "end": "2023/05/01",
         "fill": "#e51a23",
-        "name": "Fernando",
+        "name": "Química",
         "start": "2023/04/19",
         "stroke": "#e51a23"
     },
     {
         "end": "2023/05/20",
         "fill": "#e51a23",
-        "name": "Recyled",
+        "name": "Física",
         "start": "2023/05/19",
         "stroke": "#e51a23"
     }

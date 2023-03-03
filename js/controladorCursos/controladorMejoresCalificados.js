@@ -3,7 +3,7 @@ anychart.onDocumentReady(function () {
     // The data used in this sample can be obtained from the CDN
     //'https://cdn.anychart.com/samples-data/graph/knowledge_graph/data.json',
     //'https://api.npoint.io/18f7e87dadd9e43e099a',
-    'https://api.npoint.io/bfc15bdcad691602855f',
+    'https://api.npoint.io/104cff5847e76b938812',
     function (data) {
       // create graph chart
       var chart = anychart.graph(data);

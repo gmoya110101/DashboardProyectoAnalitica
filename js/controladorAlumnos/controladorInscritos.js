@@ -6,13 +6,13 @@ anychart.onDocumentReady(function () {
   // The data used in this sample can be obtained from the CDN
   // https://cdn.anychart.com/samples/general-features/load-json-data/data.json
   anychart.data.loadJsonFile(
-    'https://api.npoint.io/66c8859373a162af2879',
+    'https://api.npoint.io/459242b023a82dff65a8',
     function (data) {
       var chart = anychart.pie3d(data);
       chart
-        .title('Alumnos inscritos por carrera.')
+        .title('Alumnos inscritos por carrera')
         // set chart radius
-        .radius('43%');
+        .radius('70%');
 
       // set container id for the chart
       chart.container('pastel3d');

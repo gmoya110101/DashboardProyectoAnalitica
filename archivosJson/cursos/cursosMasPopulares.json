@@ -1,93 +1,117 @@
-[{
-    "x": "POO",
-    "value": 1383220000,
-    "category": "Sistemas"
-}, {
-    "x": "Ingeniería de costos",
-    "value": 1316000000,
-    "category": "Química"
-}, {
-    "x": "Termodinámica",
-    "value": 324982000,
-    "category": "Mecánica"
-}, {
-    "x": "Procesos de manufactura",
-    "value": 263510000,
-    "category": "Mecánica"
-}, {
-    "x": "Física moderna",
-    "value": 207505000,
-    "category": "Mecánica"
-}, {
-    "x": "Conmutación",
-    "value": 196459000,
-    "category": "Sistemas"
-}, {
-    "x": "Adminsitración de bases de datos",
-    "value": 191836000,
-    "category": "Sistemas"
-}, {
-    "x": "Ingeniería de procesos",
-    "value": 162459000,
-    "category": "Electrónica"
-}, {
-    "x": "Química orgánica",
-    "value": 146804372,
-    "category": "Química"
-}, {
-    "x": "Química inorgánica",
-    "value": 126790000,
-    "category": "Química"
-}, {
-    "x": "Laboratorio integral",
-    "value": 123518000,
-    "category": "Química"
-}, {
-    "x": "Balance de materia y energía",
-    "value": 104345000,
-    "category": "Química"
-}, {
-    "x": "Inteligencia artificial",
-    "value": 104037000,
-    "category": "Sistemas"
-}, {
-    "x": "Balance de momento",
-    "value": 93013300,
-    "category": "Química"
-}, {
-    "x": "Transporte de fluidos",
-    "value": 92700000,
-    "category": "Química"
-}, {
-    "x": "Cinemática de las máquinas",
-    "value": 82800000,
-    "category": "Mecánica"
-}, {
-    "x": "Estática",
-    "value": 82243000,
-    "category": "Química"
-}, {
-    "x": "Métodos",
-    "value": 80135400,
-    "category": "Electrónica"
-}, {
-    "x": "Circuitos",
-    "value": 79814871,
-    "category": "Electrónica"
-}, {
-    "x": "Estadística",
-    "value": 68298000,
-    "category": "Electrónica"
-}, {
-    "x": "Métodos",
-    "value": 67013000,
-    "category": "Gestión"
-}, {
-    "x": "Legislación laboral",
-    "value": 65110000,
-    "category": "Gestión"
-}, {
-    "x": "Desarrollo humano",
-    "value": 60599936,
-    "category": "Gestión"
-}]
+[
+    {
+        "x": "POO",
+        "value": 1383220000,
+        "category": "Sistemas"
+    },
+    {
+        "x": "Ingeniería de costos",
+        "value": 1316000000,
+        "category": "Química"
+    },
+    {
+        "x": "Termodinámica",
+        "value": 324982000,
+        "category": "Mecánica"
+    },
+    {
+        "x": "Procesos de manufactura",
+        "value": 263510000,
+        "category": "Mecánica"
+    },
+    {
+        "x": "Física moderna",
+        "value": 207505000,
+        "category": "Mecánica"
+    },
+    {
+        "x": "Conmutación",
+        "value": 196459000,
+        "category": "Sistemas"
+    },
+    {
+        "x": "Adminsitración de bases de datos",
+        "value": 191836000,
+        "category": "Sistemas"
+    },
+    {
+        "x": "Ingeniería de procesos",
+        "value": 162459000,
+        "category": "Electrónica"
+    },
+    {
+        "x": "Química orgánica",
+        "value": 146804372,
+        "category": "Química"
+    },
+    {
+        "x": "Química inorgánica",
+        "value": 126790000,
+        "category": "Química"
+    },
+    {
+        "x": "Laboratorio integral",
+        "value": 123518000,
+        "category": "Química"
+    },
+    {
+        "x": "Balance de materia y energía",
+        "value": 104345000,
+        "category": "Química"
+    },
+    {
+        "x": "Inteligencia artificial",
+        "value": 104037000,
+        "category": "Sistemas"
+    },
+    {
+        "x": "Balance de momento",
+        "value": 93013300,
+        "category": "Química"
+    },
+    {
+        "x": "Transporte de fluidos",
+        "value": 92700000,
+        "category": "Química"
+    },
+    {
+        "x": "Cinemática de las máquinas",
+        "value": 82800000,
+        "category": "Mecánica"
+    },
+    {
+        "x": "Estática",
+        "value": 82243000,
+        "category": "Química"
+    },
+    {
+        "x": "Métodos",
+        "value": 80135400,
+        "category": "Electrónica"
+    },
+    {
+        "x": "Circuitos",
+        "value": 79814871,
+        "category": "Electrónica"
+    },
+    {
+        "x": "Estadística",
+        "value": 68298000,
+        "category": "Electrónica"
+    },
+    {
+        "x": "Métodos",
+        "value": 67013000,
+        "category": "Gestión"
+    },
+    {
+        "x": "Legislación laboral",
+        "value": 65110000,
+        "category": "Gestión"
+    },
+    {
+        "x": "Desarrollo humano",
+        "value": 60599936,
+        "category": "Gestión"
+    }
+]

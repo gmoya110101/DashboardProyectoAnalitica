@@ -1,7 +1,7 @@
 anychart.onDocumentReady(function () {
 
   anychart.data.loadJsonFile(
-    'https://api.npoint.io/efe6b59063b8ef099c74',
+    'https://api.npoint.io/1aa979f13c6b48517df1',
     function (data) {
       var dataSet = anychart.data.set(data);
       var colors = anychart.scales
@@ -25,7 +25,7 @@ anychart.onDocumentReady(function () {
       var colorRange = chart.colorRange();
       // Habilita el rango de color
       colorRange
-        .enabled(false)
+        .enabled(true)
         // Tamaño del color
         .colorLineSize(15);
 
@@ -37,27 +37,31 @@ anychart.onDocumentReady(function () {
       // Eventos para las palabras
       var normalFillFunction = chart.normal().fill();
       var hoveredFillFunction = chart.hovered().fill();
-
-      // Configuración para la interabilidad de los colores
-      chart.listen('pointsHover', function (e) {
-        if (e.actualTarget === colorRange) {
-          if (e.points.length) {
-            chart.normal({
-              fill: 'black 0.1'
-            });
-
-          } else {
-            // Función para que esté normal
-            chart.normal({
-              fill: normalFillFunction
-            });
-            // Función para poner el evento hover
-            chart.hovered({
-              fill: hoveredFillFunction
-            });
-          }
-        }
+// Configuración para la interabilidad de los colores
+chart.listen('pointsHover', function (e) {
+  if (e.actualTarget === colorRange) {
+    if (e.points.length) {
+      chart.normal({
+        fill: 'black 0.1'
+      });
+      // Configuración para el evento hover
+      chart.hovered({
+        fill: chart
+          .colorScale()
+          .valueToColor(e.point.get('category'))
+      });
+    } else {
+      // Función para que esté normal
+      chart.normal({
+        fill: normalFillFunction
+      });
+      // Función para poner el evento hover
+      chart.hovered({
+        fill: hoveredFillFunction
       });
     }
-  );
+  }
+});
+}
+);
 });

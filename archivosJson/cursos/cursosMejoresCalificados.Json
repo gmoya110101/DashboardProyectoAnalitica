@@ -1,96 +1,95 @@
 {
     "nodes": [
         {
-            "id": "Alan",
+            "id": "POO",
             "group": 0
         },
         {
-            "id": "Gerardo",
-            "group": 2
-
-        },
-        {
-            "id": "Giner",
+            "id": "Costos",
             "group": 2
         },
         {
-            "id": "Miguel",
+            "id": "Termodinámica",
+            "group": 2
+        },
+        {
+            "id": "Manufactura",
             "group": 3
         },
         {
-            "id": "Sahady",
+            "id": "Mecánica",
             "group": 7
         },
         {
-            "id": "Alfredo",
+            "id": "Física",
             "group": 1
         },
         {
-            "id": "Leslie",
+            "id": "Conmutación",
             "group": 5
         },
         {
-            "id": "Fatima",
+            "id": "Procesos",
             "group": 5
         },
         {
-            "id": "Brenda",
+            "id": "Química",
             "group": 5
         },
         {
-            "id": "Antonio",
+            "id": "Integral",
             "group": 0
         },
         {
-            "id": "Maria Jose",
+            "id": "Diferencial",
             "group": 2
         },
         {
-            "id": "Alan Cruz",
+            "id": "IA",
             "group": 6
         },
         {
-            "id": "Amairani",
+            "id": "Balance",
             "group": 5
         },
         {
-            "id": "Roberto",
+            "id": "Cinemática",
             "group": 6
         },
         {
-            "id": "Adriana",
+            "id": "Transporte",
             "group": 7
         },
         {
-            "id": "Gabriela",
+            "id": "Estática",
             "group": 5
         },
         {
-            "id": "America",
+            "id": "Métodos",
             "group": 7
         },
         {
-            "id": "Nidia",
+            "id": "Circuitos",
             "group": 0
         },
         {
-            "id": "Kenia",
+            "id": "Estadística",
             "group": 5
         },
         {
-            "id": "Juan",
+            "id": "Legislación laboral",
             "group": 5
         },
         {
-            "id": "Moises",
+            "id": "Desarrollo humano",
             "group": 4
         },
         {
-            "id": "Wilson",
+            "id": "Álgebra",
             "group": 7
         },
         {
-            "id": "Rosendo",
+            "id": "Redes",
             "group": 1
         },
         {
@@ -98,642 +97,178 @@
             "group": 4
         },
         {
+            "id": "95",
+            "group": 0
+        },
+        {
             "id": "90",
             "group": 0
         },
         {
-            "id": "Hatena",
-            "group": 0
+            "id": "85",
+            "group": 3
         },
         {
             "id": "80",
-            "group": 3
-        },
-        {
-            "id": "70",
             "group": 1
         },
         {
-            "id": "60 ",
-            "group": 4
-        },
-        {
-            "id": "55",
-            "group": 3
-        },
-        {
-            "id": "50",
-            "group": 6
-        },
-        {
-            "id": "45",
-            "group": 6
-        },
-        {
-            "id": "40",
-            "group": 0
-        },
-        {
-            "id": "39",
-            "group": 7
-        },
-        {
-            "id": "38",
-            "group": 4
-        },
-        {
-            "id": "37",
-            "group": 6
-        },
-        {
-            "id": "36",
-            "group": 1
-        },
-        {
-            "id": "35",
-            "group": 7
-        },
-        {
-            "id": "34",
-            "group": 3
-        },
-        {
-            "id": "33",
-            "group": 0
-        },
-        {
-            "id": "32",
-            "group": 2
-        },
-        {
-            "id": "31",
-            "group": 6
-        },
-        {
-            "id": "30",
-            "group": 6
-        },
-        {
-            "id": "29",
+            "id": "75 ",
             "group": 5
         },
         {
-            "id": "28",
+            "id": "70",
+            "group": 3
+        },
+        {
+            "id": "65",
+            "group": 6
+        },
+        {
+            "id": "60",
+            "group": 6
+        },
+        {
+            "id": "55",
+            "group": 0
+        },
+        {
+            "id": "50",
             "group": 7
         },
         {
-            "id": "27",
-            "group": 7
+            "id": "45",
+            "group": 4
         },
         {
-            "id": "26",
+            "id": "40",
+            "group": 6
+        },
+        {
+            "id": "35",
+            "group": 1
+        },
+        {
+            "id": "30",
             "group": 7
         },
         {
             "id": "25",
-            "group": 1
-        },
-        {
-            "id": "24",
             "group": 3
         },
         {
-            "id": "23",
-            "group": 4
-        },
-        {
-            "id": "22",
-            "group": 1
-        },
-        {
-            "id": "21",
-            "group": 4
-        },
-        {
-            "id": "20 ",
+            "id": "20",
             "group": 0
-        },
-        {
-            "id": "19",
-            "group": 7
-        },
-        {
-            "id": "18",
-            "group": 4
-        },
-        {
-            "id": "17",
-            "group": 5
-        },
-        {
-            "id": "16",
-            "group": 1
         },
         {
             "id": "15",
-            "group": 5
-        },
-        {
-            "id": "14",
-            "group": 0
-        },
-        {
-            "id": "13",
-            "group": 0
-        },
-        {
-            "id": "12",
             "group": 2
         },
         {
-            "id": "11",
-            "group": 5
-        },
-        {
             "id": "10",
-            "group": 0
-        },
-        {
-            "id": "9",
-            "group": 7
-        },
-        {
-            "id": "8",
-            "group": 7
-        },
-        {
-            "id": "7",
-            "group": 1
-        },
-        {
-            "id": "6",
-            "group": 5
+            "group": 6
         },
         {
             "id": "5",
-            "group": 5
-        },
-        {
-            "id": "4",
-            "group": 5
-        },
-        {
-            "id": "3",
-            "group": 3
-        },
-        {
-            "id": "2",
-            "group": 0
-        },
-        {
-            "id": "1",
-            "group": 1
+            "group": 6
         },
         {
             "id": "0",
-            "group": 0
+            "group": 6
         }
     ],
     "edges": [
         {
-            "from": "Alan",
-            "to": "78"
-        },
-        {
-            "from": "Sahady",
-            "to": "89"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Miguel",
-            "to": "65"
-        },
-        {
-            "from": "Gabriela",
-            "to": "90"
-        },
-        {
-            "from": "Juan",
-            "to": "50"
-        },
-        {
-            "from": "Moises",
+            "from": "POO",
             "to": "80"
         },
         {
-            "from": "Leslie",
-            "to": "70"
-        },
-        {
-            "from": "Maria Jose",
-            "to": "60"
-        },
-        {
-            "from": "Sahady",
-            "to": "100"
-        },
-        {
-            "from": "Giner",
-            "to": "95"
-        },
-        {
-            "from": "Sahady",
-            "to": "50"
-        },
-        {
-            "from": "Alan",
-            "to": "55"
-        },
-        {
-            "from": "Nidia",
-            "to": "60"
-        },
-        {
-            "from": "Alfredo",
-            "to": "95"
-        },
-        {
-            "from": "Elizabeth",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Brenda",
-            "to": "100"
-        },
-        {
-            "from": "Fatima",
-            "to": "100"
-        },
-        {
-            "from": "Antonio",
-            "to": "100"
-        },
-        {
-            "from": "Juan",
-            "to": "10"
-        },
-        {
-            "from": "Leslie",
-            "to": "100"
-        },
-        {
-            "from": "Alan Cruz",
+            "from": "Costos",
             "to": "85"
         },
         {
-            "from": "Moises",
-            "to": "50"
-        },
-        {
-            "from": "America",
+            "from": "Termodinámica",
             "to": "90"
         },
         {
-            "from": "Wilson",
+            "from": "Manufactura",
+            "to": "65"
+        },
+        {
+            "from": "Mecánica",
+            "to": "90"
+        },
+        {
+            "from": "Física",
+            "to": "50"
+        },
+        {
+            "from": "Conmutación",
+            "to": "80"
+        },
+        {
+            "from": "Procesos",
             "to": "70"
         },
         {
-            "from": "Elizabeth",
-            "to": "100"
-        },
-        {
-            "from": "Elizabeth",
-            "to": "100"
-        },
-        {
-            "from": "Elizabeth",
-            "to": "100"
-        },
-        {
-            "from": "Wilson",
-            "to": "70"
-        },
-        {
-            "from": "Wilson",
-            "to": "70"
-        },
-        {
-            "from": "Wilson",
-            "to": "70"
-        },
-        {
-            "from": "Wilson",
-            "to": "70"
-        },
-        {
-            "from": "Wilson",
-            "to": "70"
-        },
-        {
-            "from": "Wilson",
-            "to": "70"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "100"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
-            "to": "80"
-        },
-        {
-            "from": "Amairani",
+            "from": "Química",
             "to": "60"
         },
         {
-            "from": "Amairani",
+            "from": "Integral",
+            "to": "100"
+        },
+        {
+            "from": "Diferencial",
+            "to": "95"
+        },
+        {
+            "from": "IA",
+            "to": "50"
+        },
+        {
+            "from": "Balance",
+            "to": "55"
+        },
+        {
+            "from": "Cinemática",
             "to": "60"
         },
         {
-            "from": "Amairani",
-            "to": "60"
+            "from": "Transporte",
+            "to": "95"
         },
         {
-            "from": "Amairani",
-            "to": "60"
+            "from": "Estática",
+            "to": "100"
         },
         {
-            "from": "Amairani",
-            "to": "60"
+            "from": "Métodos",
+            "to": "100"
         },
         {
-            "from": "Amairani",
-            "to": "60"
+            "from": "Circuitos",
+            "to": "100"
         },
         {
-            "from": "Amairani",
-            "to": "60"
+            "from": "Estadística",
+            "to": "100"
         },
         {
-            "from": "Amairani",
-            "to": "60"
+            "from": "Legislación laboral",
+            "to": "100"
         },
         {
-            "from": "Amairani",
-            "to": "60"
+            "from": "Desarrollo humano",
+            "to": "10"
         },
         {
-            "from": "Amairani",
-            "to": "60"
+            "from": "Álgebra",
+            "to": "100"
         },
         {
-            "from": "Amairani",
-            "to": "60"
-        },
-        {
-            "from": "Amairani",
-            "to": "60"
-        },
-        {
-            "from": "Rosendo",
-            "to": "50"
-        },
-        {
-            "from": "Rosendo",
-            "to": "50"
-        },
-        {
-            "from": "Rosendo",
-            "to": "50"
-        },
-        {
-            "from": "Rosendo",
-            "to": "50"
-        },
-        {
-            "from": "Rosendo",
-            "to": "50"
-        },
-        {
-            "from": "Rosendo",
-            "to": "50"
-        },
-        {
-            "from": "Rosendo",
-            "to": "50"
-        },
-        {
-            "from": "Rosendo",
-            "to": "50"
-        },
-        {
-            "from": "Rosendo",
-            "to": "50"
-        },
-        {
-            "from": "Rosendo",
-            "to": "50"
-        },
-        {
-            "from": "Rosendo",
-            "to": "50"
-        },
-        {
-            "from": "Rosendo",
-            "to": "50"
-        },
-        {
-            "from": "Rosendo",
-            "to": "50"
-        },
-        {
-            "from": "Rosendo",
-            "to": "50"
-        },
-        {
-            "from": "Rosendo",
-            "to": "50"
+            "from": "Redes",
+            "to": "85"
         }
     ]
 }
