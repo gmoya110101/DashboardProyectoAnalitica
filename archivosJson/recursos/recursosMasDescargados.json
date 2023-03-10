@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Libros",
+        "value": 90
+    },
+    {
+        "name": "Videos",
+        "value": 89
+    },
+    {
+        "name": "Apuntes",
+        "value": 67
+    },
+    {
+        "name": "Artículos",
+        "value": 83
+    },
+    {
+        "name": "Tutoriales",
+        "value": 91
+    },
+    {
+        "name": "Asesorías",
+        "value": 78
+    },
+    {
+        "name": "Wiki",
+        "value": 43
+    }
+]
