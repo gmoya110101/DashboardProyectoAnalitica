@@ -230,7 +230,7 @@ anychart.onDocumentReady(function () {
     // set chart title
     chart
       .title()
-      .enabled(true)
+      .enabled(false)
       .padding({ bottom: 35 })
       .text('Relaciones lógicas entre dos o más conjuntos de carreras. ');
 
