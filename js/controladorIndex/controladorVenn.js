@@ -232,7 +232,7 @@ anychart.onDocumentReady(function () {
       .title()
       .enabled(true)
       .padding({ bottom: 35 })
-      .text('Materias del Instituto Tecnológico de Orizaba');
+      .text('Relaciones lógicas entre dos o más conjuntos de carreras. ');
 
     // set chart stroke
     chart.stroke('2 #fff');
@@ -272,54 +272,54 @@ anychart.onDocumentReady(function () {
     return [
       {
         x: 'A',
-        value: 200,
+        value: 750,
         name: 'sistemas \n computacionales'
       },
       {
         x: 'B',
-        value: 150,
+        value: 500,
         name: 'Informatica'
       },
       {
         x: 'C',
-        value: 150,
+        value: 500,
         name: 'Industrial'
       },
 
       //abajo
       {
         x: 'D',
-        value: 150,
+        value: 300,
         name: 'Gestion'
       },
       {
         x: 'E',
-        value: 150,
+        value: 300,
         name: 'Mecanica'
       },
       {
         x: ['D', 'E'],
-        value: 60,
-        name: 'Gestión \n de proyecto'
+        value: 90,
+        name: 'Gestión \n de \n proyecto'
       },
       {
         x: ['A', 'B'],
-        value: 60,
-        name: 'Fundamentos \n programacion'
+        value: 200,
+        name: 'POO'
       },
       {
         x: ['A', 'C'],
-        value: 20,
+        value: 165,
         name: 'Algebra'
       },
       {
         x: ['B', 'C'],
-        value: 20,
+        value: 210,
         name: 'Estadistica'
       },
       {
         x: ['A', 'B', 'C'],
-        value: 64,
+        value: 50,
         name: 'Diferencial'
       }
     ];
