@@ -19,6 +19,15 @@ anychart.onDocumentReady(function () {
                 .anchor('auto')
                 .autoRotate(true);
 
+            // Color de líneas
+            chart.edges().stroke('2 #62FDE6');
+
+            // Color de líneas cuando pasa el mouse encima
+            chart.edges().hovered().stroke('3 #FF5757');
+
+            // Color de líneas cuando se selecciona
+            chart.edges().selected().stroke('4 #00D107');
+
             // div contenedor
             chart.container('relacion');
             // Inicializa el gráfico
@@ -26,7 +35,7 @@ anychart.onDocumentReady(function () {
 
             // Configuración de zoom
             chart.zoom(
-                0.68,
+                0.7,
                 chart.getPixelBounds().width / 2,
                 chart.getPixelBounds().height / 2
             );

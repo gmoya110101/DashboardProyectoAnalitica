@@ -52,6 +52,6 @@
 
 #img {
 
-  height: 90px;
-  width: 90px;
+  max-width: 115px;
+  max-height: 100px;
 }

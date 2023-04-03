@@ -1,28 +1,30 @@
 anychart.onDocumentReady(function () {
 
     anychart.data.loadJsonFile(
-        'https://api.npoint.io/cfea05c6703201468de9',
-        function(data){
+        'https://api.npoint.io/8c7663f9e9b7fe7f2858',
+        function (data) {
 
-    // create a chart and set the data
-    var chart = anychart.pie(data);
+            // create a chart and set the data
+            var chart = anychart.pie(data);
 
-    // set the explosion range in different states
-    chart.selected().explode("3%");
-    chart.hovered().explode("3%");
+            // Animación que saca la rebanada del gráfico cuando se pasa el mouse encima
+            chart.selected().explode("5%");
+            chart.hovered().explode("5%");
 
-    // explode the fourth and fifth slices
-    chart.select([3, 4]);
+            //Formato de etiquetas
+            var tooltip = chart.tooltip();
+            tooltip.title().text("Inscritos por institución");
+            tooltip.format("Institución: {%x}\nInscritos: {%value}");
 
-    // set the chart title
-    chart.title("Alumnos por institución educativa")
-    .radius('70%');;
+            // Título del gráfico
+            chart.title("Alumnos por institución educativa")
+                .radius('90%');;
 
-    // set the container id
-    chart.container("pastel");
+            // // Id del div
+            chart.container("pastel");
 
-    // initiate drawing the chart
-    chart.draw();
+            // Dibuja el gráfico
+            chart.draw();
 
         }
     );
