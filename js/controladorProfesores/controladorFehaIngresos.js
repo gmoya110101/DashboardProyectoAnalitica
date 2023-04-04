@@ -1,6 +1,7 @@
 
 anychart.onDocumentReady(function () {
   var gauge = anychart.gauges.circular();
+
   gauge
     .fill('#fff')
     .stroke(null)

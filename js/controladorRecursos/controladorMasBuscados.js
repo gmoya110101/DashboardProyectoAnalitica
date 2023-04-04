@@ -6,7 +6,7 @@ anychart.onDocumentReady(function () {
             // Configuración inicial del gráfico
             var dataTree = anychart.data.tree(data, 'as-table');
             var chart = anychart.treeMap(dataTree);
-
+            
             // Configuración del título
             chart
                 .title()
@@ -61,27 +61,27 @@ anychart.onDocumentReady(function () {
                 .fontColor('#212121')
                 .fontSize(12)
                 .format(function () {
-                    return this.getData('curso');
+                    return this.getData('recurso');
                 });
 
             // Configuración de los encabezados
             chart.headers().format(function () {
-                return this.getData('curso');
+                return this.getData('recurso');
             });
 
-            //Configuraciones de las herramientas
-            chart
-                .tooltip()
-                .useHtml(true)
-                .titleFormat(function () {
-                    return this.getData('curso');
-                })
-                .format(function () {
-                    return (
-                        '<span style="color: #bfbfbf">Valor: </span>' +
-                        anychart.format.number(this.value, { groupsSeparator: ' ' })
-                    );
-                });
+           // Configuración del tooltip
+           chart
+           .tooltip()
+           .useHtml(true)
+           .titleFormat(function () {
+               return this.getData('recurso');
+           })
+           .format(function () {
+               return (
+                   '<span style="color: #bfbfbf">Total de búsquedas: </span>' +
+                   anychart.format.number(this.value, { groupsSeparator: ' ' })
+               );
+           });
 
             // Obtener div contenedor
             chart.container('treemap');

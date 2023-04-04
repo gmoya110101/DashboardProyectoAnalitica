@@ -34,34 +34,39 @@ anychart.onDocumentReady(function () {
       // Dibuja la gráfica
       chart.draw();
 
+      //Formato de etiquetas
+      var tooltip = chart.tooltip();
+      tooltip.title().text("Búsquedas");
+      tooltip.format("Recurso: {%x}\nPopularidad: {%value}");
+
       // Eventos para las palabras
       var normalFillFunction = chart.normal().fill();
       var hoveredFillFunction = chart.hovered().fill();
-// Configuración para la interabilidad de los colores
-chart.listen('pointsHover', function (e) {
-  if (e.actualTarget === colorRange) {
-    if (e.points.length) {
-      chart.normal({
-        fill: 'black 0.1'
-      });
-      // Configuración para el evento hover
-      chart.hovered({
-        fill: chart
-          .colorScale()
-          .valueToColor(e.point.get('category'))
-      });
-    } else {
-      // Función para que esté normal
-      chart.normal({
-        fill: normalFillFunction
-      });
-      // Función para poner el evento hover
-      chart.hovered({
-        fill: hoveredFillFunction
+      // Configuración para la interabilidad de los colores
+      chart.listen('pointsHover', function (e) {
+        if (e.actualTarget === colorRange) {
+          if (e.points.length) {
+            chart.normal({
+              fill: 'black 0.1'
+            });
+            // Configuración para el evento hover
+            chart.hovered({
+              fill: chart
+                .colorScale()
+                .valueToColor(e.point.get('category'))
+            });
+          } else {
+            // Función para que esté normal
+            chart.normal({
+              fill: normalFillFunction
+            });
+            // Función para poner el evento hover
+            chart.hovered({
+              fill: hoveredFillFunction
+            });
+          }
+        }
       });
     }
-  }
-});
-}
-);
+  );
 });

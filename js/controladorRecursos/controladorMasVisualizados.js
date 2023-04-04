@@ -19,6 +19,11 @@ anychart.onDocumentReady(function () {
                 { greater: 8000000, color: "#FF4500" }
             ]);
 
+          //Formato de etiquetas
+          var tooltip = chart.tooltip();
+          tooltip.title().text("Visualizaciones");
+          tooltip.format("Recurso: {%x}\nTotal visualizaciones: {%heat}");
+
             // Se aplica la escala
             chart.colorScale(colorScale);
 

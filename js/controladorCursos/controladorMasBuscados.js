@@ -1,14 +1,12 @@
 anychart.onDocumentReady(function () {
-    // The data used in this sample can be obtained from the CDN
-    // https://cdn.anychart.com/samples/tree-map-charts/acme-products-by-revenue/data.json
     anychart.data.loadJsonFile(
         'https://api.npoint.io/4fbc253ab206aa4e286e',
         function (data) {
-            // makes tree from the data for the sample
+            // Vincula los datos del archivo JSON al gráfico
             var dataTree = anychart.data.tree(data, 'as-table');
             var chart = anychart.treeMap(dataTree);
 
-            // sets title for chart and customizes it
+            // Configuración del título
             chart
                 .title()
                 .enabled(true)
@@ -18,7 +16,7 @@ anychart.onDocumentReady(function () {
                     'Resumen de los cursos más buscados por carrera<br/>'
                 );
 
-            // sets scale
+            // Escala 
             var scale = anychart.scales.ordinalColor([
                 { less: 25000 },
                 { from: 25000, to: 30000 },
@@ -28,7 +26,7 @@ anychart.onDocumentReady(function () {
                 { greater: 100000 }
             ]);
 
-            // sets colors for scale
+            // Colores de la escala
             scale.colors([
                 '#ffee58',
                 '#fbc02d',
@@ -38,16 +36,16 @@ anychart.onDocumentReady(function () {
                 '#2e7d32'
             ]);
 
-            // sets chart settings
+            // Configuración del gráfico
             chart
                 .padding([10, 10, 10, 20])
-                // setting the number of levels shown
+                // Configuración de los nivelesS
                 .maxDepth(2)
                 .selectionMode('none')
                 .colorScale(scale)
                 .hovered({ fill: '#bdbdbd' });
 
-            // sets padding for legend
+            // Configuración de la leyenda
             chart
                 .legend()
                 .enabled(true)
@@ -56,7 +54,7 @@ anychart.onDocumentReady(function () {
                 .align('top')
                 .itemsLayout('vertical');
 
-            // sets settings for labels
+            // Configuración de las etiquetas
             chart
                 .labels()
                 .useHtml(true)
@@ -66,12 +64,12 @@ anychart.onDocumentReady(function () {
                     return this.getData('curso');
                 });
 
-            // sets settings for headers
+            // Configuración del encabezado
             chart.headers().format(function () {
                 return this.getData('curso');
             });
 
-            // sets settings for tooltip
+            // Configuración del tooltip
             chart
                 .tooltip()
                 .useHtml(true)
@@ -80,14 +78,14 @@ anychart.onDocumentReady(function () {
                 })
                 .format(function () {
                     return (
-                        '<span style="color: #bfbfbf">Numero: </span>' +
+                        '<span style="color: #bfbfbf">Total de búsquedas: </span>' +
                         anychart.format.number(this.value, { groupsSeparator: ' ' })
                     );
                 });
 
-            // set container id for the chart
+            // Contenedor
             chart.container('treemap');
-            // initiate chart drawing
+            // Inicializar el gráfico
             chart.draw();
         }
     );

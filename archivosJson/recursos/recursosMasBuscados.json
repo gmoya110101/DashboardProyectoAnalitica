@@ -1,43 +1,43 @@
 [
     {
         "id": "00",
-        "curso": "Recursos más buscados",
+        "recurso": "Recursos más buscados",
         "parent": null
     },
     {
         "parent": "00",
         "id": "01",
-        "curso": "Sistemas",
+        "recurso": "Sistemas",
         "value": 692000
     },
     {
         "parent": "00",
         "id": "02",
-        "curso": "Química",
+        "recurso": "Química",
         "value": 597000
     },
     {
         "parent": "00",
         "id": "03",
-        "curso": "Mecánica",
+        "recurso": "Mecánica",
         "value": 1359000
     },
     {
         "parent": "00",
         "id": "04",
-        "curso": "Electrónica",
+        "recurso": "Electrónica",
         "value": 596000
     },
     {
         "parent": "00",
         "id": "05",
-        "curso": "Gestión",
+        "recurso": "Gestión",
         "value": 599000
     },
     {
         "parent": "01",
         "id": "11",
-        "curso": "Libros",
+        "recurso": "Libros",
         "value": 138000
     },
     {
@@ -49,229 +49,229 @@
     {
         "parent": "01",
         "id": "13",
-        "curso": "Apuntes",
+        "recurso": "Apuntes",
         "value": 88000
     },
     {
         "parent": "01",
         "id": "14",
-        "curso": "Artículos",
+        "recurso": "Artículos",
         "value": 77000
     },
     {
         "parent": "01",
         "id": "15",
-        "curso": "Folletos",
+        "recurso": "Folletos",
         "value": 48000
     },
     {
         "parent": "01",
         "id": "16",
-        "curso": "Blogs",
+        "recurso": "Blogs",
         "value": 48000
     },
     {
         "parent": "01",
         "id": "17",
-        "curso": "Síntesis",
+        "recurso": "Síntesis",
         "value": 41000
     },
     {
         "parent": "01",
         "id": "18",
-        "curso": "Guías",
+        "recurso": "Guías",
         "value": 39000
     },
     {
         "parent": "01",
         "id": "19",
-        "curso": "Tutoriales",
+        "recurso": "Tutoriales",
         "value": 32000
     },
     {
         "parent": "01",
         "id": "111",
-        "curso": "Asesorías",
+        "recurso": "Asesorías",
         "value": 67000
     },
     {
         "parent": "01",
         "id": "112",
-        "curso": "Revistas",
+        "recurso": "Revistas",
         "value": 23000
     },
     {
         "parent": "01",
         "id": "113",
-        "curso": "Wiki",
+        "recurso": "Wiki",
         "value": 41000
     },
     {
         "parent": "02",
         "id": "21",
-        "curso": "Libros",
+        "recurso": "Libros",
         "value": 189000
     },
     {
         "parent": "02",
         "id": "22",
-        "curso": "Videos",
+        "recurso": "Videos",
         "value": 94000
     },
     {
         "parent": "02",
         "id": "23",
-        "curso": "Apuntes",
+        "recurso": "Apuntes",
         "value": 63000
     },
     {
         "parent": "02",
         "id": "24",
-        "curso": "Artículos",
+        "recurso": "Artículos",
         "value": 43000
     },
     {
         "parent": "02",
         "id": "25",
-        "curso": "Folletos",
+        "recurso": "Folletos",
         "value": 30000
     },
     {
         "parent": "02",
         "id": "26",
-        "curso": "Blogs",
+        "recurso": "Blogs",
         "value": 29000
     },
     {
         "parent": "02",
         "id": "27",
-        "curso": "Síntesis",
+        "recurso": "Síntesis",
         "value": 26000
     },
     {
         "parent": "02",
         "id": "28",
-        "curso": "Guías",
+        "recurso": "Guías",
         "value": 23000
     },
     {
         "parent": "02",
         "id": "29",
-        "curso": "Tutoriales",
+        "recurso": "Tutoriales",
         "value": 23000
     },
     {
         "parent": "02",
         "id": "211",
-        "curso": "Asesorías",
+        "recurso": "Asesorías",
         "value": 23000
     },
     {
         "parent": "02",
         "id": "212",
-        "curso": "Revistas",
+        "recurso": "Revistas",
         "value": 23000
     },
     {
         "parent": "02",
         "id": "213",
-        "curso": "Wiki",
+        "recurso": "Wiki",
         "value": 23000
     },
     {
         "parent": "03",
         "id": "31",
-        "curso": "Libros",
+        "recurso": "Libros",
         "value": 154000
     },
     {
         "parent": "03",
         "id": "32",
-        "curso": "Videos",
+        "recurso": "Videos",
         "value": 142000
     },
     {
         "parent": "03",
         "id": "33",
-        "curso": "Apuntes",
+        "recurso": "Apuntes",
         "value": 43000
     },
     {
         "parent": "03",
         "id": "34",
-        "curso": "Artículos",
+        "recurso": "Artículos",
         "value": 38000
     },
     {
         "parent": "03",
         "id": "35",
-        "curso": "Folletos",
+        "recurso": "Folletos",
         "value": 32000
     },
     {
         "parent": "03",
         "id": "36",
-        "curso": "Blogs",
+        "recurso": "Blogs",
         "value": 154000
     },
     {
         "parent": "03",
         "id": "37",
-        "curso": "Síntesis",
+        "recurso": "Síntesis",
         "value": 142000
     },
     {
         "parent": "03",
         "id": "38",
-        "curso": "Guías",
+        "recurso": "Guías",
         "value": 43000
     },
     {
         "parent": "03",
         "id": "39",
-        "curso": "Tutoriales",
+        "recurso": "Tutoriales",
         "value": 38000
     },
     {
         "parent": "03",
         "id": "311",
-        "curso": "Asesorías",
+        "recurso": "Asesorías",
         "value": 174000
     },
     {
         "parent": "03",
         "id": "312",
-        "curso": "Revistas",
-        "": 142000
+        "recurso": "Revistas",
+        "value": 142000
     },
     {
         "parent": "03",
         "id": "313",
-        "curso": "Wiki",
+        "recurso": "Wiki",
         "value": 43000
     },
     {
         "parent": "04",
         "id": "41",
-        "curso": "Libros",
+        "recurso": "Libros",
         "value": 154000
     },
     {
         "parent": "04",
         "id": "42",
-        "curso": "Videos",
+        "recurso": "Videos",
         "value": 142000
     },
     {
         "parent": "04",
         "id": "43",
-        "curso": "Apuntes",
+        "recurso": "Apuntes",
         "value": 43000
     },
     {
         "parent": "04",
         "id": "44",
-        "curso": "Artículos",
+        "recurso": "Artículos",
         "value": 38000
     },
     {
@@ -283,115 +283,115 @@
     {
         "parent": "04",
         "id": "46",
-        "curso": "Blogs",
+        "recurso": "Blogs",
         "value": 154000
     },
     {
         "parent": "04",
         "id": "47",
-        "curso": "Síntesis",
+        "recurso": "Síntesis",
         "value": 142000
     },
     {
         "parent": "04",
         "id": "48",
-        "curso": "Guías",
+        "recurso": "Guías",
         "value": 43000
     },
     {
         "parent": "04",
         "id": "49",
-        "curso": "Tutoriales",
+        "recurso": "Tutoriales",
         "value": 38000
     },
     {
         "parent": "04",
         "id": "411",
-        "curso": "Asesorías",
+        "recurso": "Asesorías",
         "value": 174000
     },
     {
         "parent": "04",
         "id": "412",
-        "curso": "Revistas",
-        "": 142000
+        "recurso": "Revistas",
+        "value": 142000
     },
     {
         "parent": "04",
         "id": "313",
-        "curso": "Wiki",
+        "recurso": "Wiki",
         "value": 43000
     },
     {
         "parent": "05",
         "id": "51",
-        "curso": "Libros",
+        "recurso": "Libros",
         "value": 154000
     },
     {
         "parent": "05",
         "id": "52",
-        "curso": "Videos",
+        "recurso": "Videos",
         "value": 142000
     },
     {
         "parent": "05",
         "id": "35",
-        "curso": "Apuntes",
+        "recurso": "Apuntes",
         "value": 43000
     },
     {
         "parent": "05",
         "id": "54",
-        "curso": "Artículos",
+        "recurso": "Artículos",
         "value": 38000
     },
     {
         "parent": "05",
         "id": "55",
-        "curso": "Folletos",
+        "recurso": "Folletos",
         "value": 32000
     },
     {
         "parent": "05",
         "id": "56",
-        "curso": "Blogs",
+        "recurso": "Blogs",
         "value": 154000
     },
     {
         "parent": "05",
         "id": "57",
-        "curso": "Síntesis",
+        "recurso": "Síntesis",
         "value": 142000
     },
     {
         "parent": "05",
         "id": "58",
-        "curso": "Guías",
+        "recurso": "Guías",
         "value": 43000
     },
     {
         "parent": "05",
         "id": "35",
-        "curso": "Tutoriales",
+        "recurso": "Tutoriales",
         "value": 38000
     },
     {
         "parent": "05",
         "id": "511",
-        "curso": "Asesorías",
+        "recurso": "Asesorías",
         "value": 174000
     },
     {
         "parent": "05",
         "id": "512",
-        "curso": "Revistas",
-        "": 142000
+        "recurso": "Revistas",
+        "value": 142000
     },
     {
         "parent": "05",
         "id": "13",
-        "curso": "Wiki",
+        "rescurso": "Wiki",
         "value": 43000
     }
 ]

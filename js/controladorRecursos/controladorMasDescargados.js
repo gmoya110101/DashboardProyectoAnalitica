@@ -4,18 +4,25 @@ anychart.onDocumentReady(function () {
     function (data) {
 
       var chart = anychart.pie(data);
-
-      // set chart title text settings
+      //Animación
+      chart.animation(true);
+      // Título
       chart
         .title('Recursos más descargados')
-        // set chart radius
+        // Radio
         .radius('45%')
-        // create empty area in pie chart
+        // Crea área vacía en el gráfico
         .innerRadius('35%');
 
-      // set container id for the chart
+
+      //Formato de etiquetas
+      var tooltip = chart.tooltip();
+      tooltip.title().text("Descargas");
+      tooltip.format("Recurso: {%name}\nTotal descargas: {%value}");
+
+      // Id del contenedor
       chart.container('container');
-      // initiate chart drawing
+      // Inicializar el gráfico
       chart.draw();
     })
 });

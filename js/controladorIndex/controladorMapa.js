@@ -5,7 +5,7 @@ anychart.onDocumentReady(function () {
     anychart.data.loadJsonFile(
         // Obtiene los datos desde un archivo JSON
         'https://api.npoint.io/76fef9a7ade87e110801', function (dataSet) {
-        //Configuración general del mapa
+            //Configuración general del mapa
             map
                 .title()
                 .enabled(true)
@@ -27,7 +27,6 @@ anychart.onDocumentReady(function () {
             // Se pone el geo mapa de méxico, se pueden encontrar de más países en
             // https://cdn.anychart.com/#maps-collection
             map.geoData(anychart.maps['mexico']);
-
 
             //Se asigna el identificador del div donde se alojará el mapa
             map.container('mapa');

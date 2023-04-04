@@ -27,8 +27,7 @@
         "id": "04",
         "curso": "Electrónica",
         "value": 596000
-    },
-    {
+    },{
         "parent": "00",
         "id": "05",
         "curso": "Gestión",

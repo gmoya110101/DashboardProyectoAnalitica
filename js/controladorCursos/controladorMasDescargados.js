@@ -5,17 +5,24 @@ anychart.onDocumentReady(function () {
 
       var chart = anychart.pie(data);
 
-      // set chart title text settings
+      //Animación
+      chart.animation(true);
+      // Título
       chart
-        .title('Top 7 cursos más descargados')
-        // set chart radius
+        .title('Cursos más descargados')
+        // Radio
         .radius('45%')
-        // create empty area in pie chart
+        // Crea área vacía en el gráfico
         .innerRadius('35%');
 
-      // set container id for the chart
+      //Formato de etiquetas
+      var tooltip = chart.tooltip();
+      tooltip.title().text("Descargas");
+      tooltip.format("Curso: {%name}\nTotal descargas: {%value}");
+
+      // Contenedor
       chart.container('container');
-      // initiate chart drawing
+      // Inicializar el gráfico
       chart.draw();
     })
 });

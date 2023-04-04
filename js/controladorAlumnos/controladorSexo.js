@@ -3,14 +3,14 @@ anychart.onDocumentReady(function () {
     anychart.data.loadJsonFile(
         'https://api.npoint.io/6f6fb2682c359d511a44',
         function (data) {
-            // create column chart
+            // Crea gráfico de barras
             var chart = anychart.column(data);
             chart.animation(true);
 
-            // set chart title text settings
+            // Título
             chart.title('Alumnos por sexo');
 
-            // set series tooltip settings
+            // Configuración del tooltip
             chart.tooltip().titleFormat('{%X}');
 
             chart
@@ -21,21 +21,28 @@ anychart.onDocumentReady(function () {
                 .offsetY(5)
                 .format('Total {%Value}{groupsSeparator: }');//Formato de las etiquetas emergentes
 
-            // set scale minimum
+            // Escala mínima
             chart.yScale().minimum(0);
 
-            // tooltips position and interactivity settings
+            // Posición e interacción del tooltip 
             chart.tooltip().positionMode('point');
             chart.interactivity().hoverMode('by-x');
 
-            // axes titles
+            // Títulos de los ejes
             chart.xAxis().title('Sexo');
             chart.yAxis().title('Cantidad');
 
-            // set container id for the chart
+
+            chart.labels(true);
+            chart.labels().fontColor("#FC2A19");
+            chart.labels().fontWeight(900);
+            chart.labels().format("{%value}");
+
+
+            // Id del contenedor del gráfico
             chart.container('barras');
 
-            // initiate chart drawing
+            //Inicializa el gráfico
             chart.draw();
         }
     );

@@ -3,6 +3,9 @@ anychart.onDocumentReady(function () {
     'https://api.npoint.io/459242b023a82dff65a8',
     function (data) {
       var chart = anychart.pie3d(data);
+      //Animación
+      chart.animation(true);
+
       chart
         .title('Alumnos inscritos por carrera')
         // Radio del gráfico

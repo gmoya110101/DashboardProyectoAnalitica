@@ -7,6 +7,7 @@ anychart.onDocumentReady(function () {
             // Crea el gráfico de línea del tiempo
             var chart = anychart.timeline();
 
+
             chart.title('Historial de navegación');
 
             // Carga los datos

@@ -4,9 +4,10 @@ anychart.onDocumentReady(function () {
         'https://api.npoint.io/8c7663f9e9b7fe7f2858',
         function (data) {
 
-            // create a chart and set the data
+            // Crea el gráfico de pastel
             var chart = anychart.pie(data);
-
+            //Animación de inicio
+            chart.animation(true);
             // Animación que saca la rebanada del gráfico cuando se pasa el mouse encima
             chart.selected().explode("5%");
             chart.hovered().explode("5%");

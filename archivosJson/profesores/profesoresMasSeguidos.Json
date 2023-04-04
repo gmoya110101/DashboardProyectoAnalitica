@@ -1,14 +1,28 @@
-
 [
     {
         "to": "Giner",
         "from": "Luis",
-        "value": 6
+        "value": 60
     },
     {
         "to": "Rafael",
         "from": "Ulises",
-        "value": 24
+        "value": 90
+    },
+    {
+        "to": "Rafael",
+        "from": "Bety",
+        "value": 100
+    },
+    {
+        "to": "Rafael",
+        "from": "Gerardo",
+        "value": 70
+    },
+    {
+        "to": "Rafael",
+        "from": "Alan",
+        "value": 70
     },
     {
         "to": "Ulises",
@@ -16,14 +30,14 @@
         "value": 79
     },
     {
-        "to": "Luis",
-        "from": "Gerardo",
-        "value": 0
-    },
-    {
         "to": "Bety",
         "from": "Gerardo",
         "value": 319
+    },
+    {
+        "to": "Bety",
+        "from": "Giner",
+        "value": 789
     },
     {
         "to": "Gerardo",
@@ -44,5 +58,30 @@
         "to": "Alan",
         "from": "Luis",
         "value": 261
+    },
+    {
+        "to": "Gerardo",
+        "from": "Alan",
+        "value": 361
+    },
+    {
+        "to": "Maritza",
+        "from": "Giner",
+        "value": 561
+    },
+    {
+        "to": "Maritza",
+        "from": "Alan",
+        "value": 261
+    },
+    {
+        "to": "Maritza",
+        "from": "Gerardo",
+        "value": 261
+    },
+    {
+        "to": "Maritza",
+        "from": "Bety",
+        "value": 491
     }
 ]
