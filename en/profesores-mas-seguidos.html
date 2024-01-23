@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Recursos educativos</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- Main CSS-->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!-- Font-icon css-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--Biliotecas de AnyCharts-->
+
+    <div
+      id="anychart-embed-modules--samples-anychart.sankey"
+      class="anychart-embed anychart-embed-modules--samples-anychart.sankey"
+    ></div>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-sankey.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-exports.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-ui.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-bundle.min.js"></script>
+    <div
+      id="ac_style_modules--samples-anychart.sankey"
+      style="display: none"
+    ></div>
+
+    <!--Extras-->
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-graph.min.js"></script>
+    <!--Estilo principal-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Estilos del gráfico-->
+    <link
+      href="https://cdn.anychart.com/releases/v8/css/anychart-ui.min.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.anychart.com/releases/v8/fonts/css/anychart-font.min.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="app sidebar-mini">
+    <!-- Navbar-->
+    <header class="app-header">
+      <a class="app-header__logo" href="index.html"
+        ><img id="logo" src="images/logo@2x.png"
+      /></a>
+      <!-- Sidebar toggle button--><a
+        class="app-sidebar__toggle"
+        href="#"
+        data-toggle="sidebar"
+        aria-label="Hide Sidebar"
+      ></a>
+      <!-- Navbar Right Menu-->
+      <ul class="app-nav">
+        <li class="app-search">
+          <input class="app-search__input" type="search" placeholder="Search" />
+          <button class="app-search__button">
+            <i class="fa fa-search"></i>
+          </button>
+        </li>
+        <!--Notification Menu-->
+
+        <!-- User Menu-->
+
+        <li class="dropdown">
+          <a
+            class="app-nav__item"
+            href="#"
+            data-toggle="dropdown"
+            aria-label="Open Profile Menu"
+          >
+            <div id="google_translate_element" class="google"></div>
+
+            <script type="text/javascript">
+              function googleTranslateElementInit() {
+                new google.translate.TranslateElement(
+                  {
+                    pageLanguage: "es",
+                    includedLanguages: "ca,eu,gl,en,fr,it,pt,de",
+                    layout:
+                      google.translate.TranslateElement.InlineLayout.SIMPLE,
+                    gaTrack: true,
+                  },
+                  "google_translate_element"
+                );
+              }
+            </script>
+
+            <script
+              type="text/javascript"
+              src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+            ></script>
+          </a>
+        </li>
+      </ul>
+    </header>
+    <!-- Sidebar menu-->
+    <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+    <aside class="app-sidebar">
+      <div class="app-sidebar__user">
+        <img
+          class="app-sidebar__user-avatar"
+          src="images/usuario.jpg"
+          id="img"
+          alt="User Image"
+        />
+        <div>
+          <p class="app-sidebar__user-name">Giner Alor</p>
+          <p class="app-sidebar__user-designation">Administrator</p>
+        </div>
+      </div>
+      <ul class="app-menu">
+        <li>
+          <a class="app-menu__item active" href="index.html"
+            ><i class="app-menu__icon fa fa-dashboard"></i
+            ><span class="app-menu__label">Inicio</span></a
+          >
+        </li>
+        <li class="treeview">
+          <a class="app-menu__item" href="#" data-toggle="treeview"
+            ><i class="fa fa-users"></i
+            ><span class="app-menu__label">&nbsp;&nbsp;&nbsp;Students</span
+            ><i class="treeview-indicator fa fa-angle-right"></i
+          ></a>
+          <ul class="treeview-menu">
+            <li>
+              <a class="treeview-item" href="alumnos-por-carrera.html"
+                ><i class="icon fa fa-circle-o"></i> Students by degree</a
+              >
+            </li>
+            <li>
+              <a class="treeview-item" href="alumnos-por-edad.html"
+                ><i class="icon fa fa-circle-o"></i> Students by age</a
+              >
+            </li>
+            <li>
+              <a class="treeview-item" href="alumnos-por-sexo.html"
+                ><i class="icon fa fa-circle-o"></i> Students by sex</a
+              >
+            </li>
+            <li>
+              <a
+                class="treeview-item"
+                href="alumnos-por-InstitucionEducativa.html"
+                ><i class="icon fa fa-circle-o"></i> Students by educational
+                institution</a
+              >
+            </li>
+            <li>
+              <a class="treeview-item" href="alumnos-historial-navegacion.html"
+                ><i class="icon fa fa-circle-o"></i> Browsing history</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="treeview">
+          <a class="app-menu__item" href="#" data-toggle="treeview"
+            ><i class="fa fa-pencil-square-o"></i
+            ><span class="app-menu__label">&nbsp;&nbsp;&nbsp;Teachers</span
+            ><i class="treeview-indicator fa fa-angle-right"></i
+          ></a>
+          <ul class="treeview-menu">
+            <li>
+              <a class="treeview-item" href="profesores-con-mas-recursos.html"
+                ><i class="icon fa fa-circle-o"></i> Teachers with more
+                resources</a
+              >
+            </li>
+            <li>
+              <a class="treeview-item" href="profesores-mas-seguidos.html"
+                ><i class="icon fa fa-circle-o"></i> Most followed teachers</a
+              >
+            </li>
+            <li>
+              <a class="treeview-item" href="profesores-fecha-ingreso.html"
+                ><i class="icon fa fa-circle-o"></i> Date of entry to the
+                platform</a
+              >
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a class="app-menu__item" href="#" data-toggle="treeview"
+            ><i class="fa fa-book"></i
+            ><span class="app-menu__label">&nbsp;&nbsp;&nbsp;Courses</span
+            ><i class="treeview-indicator fa fa-angle-right"></i
+          ></a>
+          <ul class="treeview-menu">
+            <li>
+              <a class="treeview-item" href="cursos-mas-buscados.html"
+                ><i class="icon fa fa-circle-o"></i> Most searched</a
+              >
+            </li>
+            <li>
+              <a class="treeview-item" href="cursos-mas-visualizados.html"
+                ><i class="icon fa fa-circle-o"></i> Most viewed</a
+              >
+            </li>
+            <li>
+              <a
+                class="treeview-item"
+                href="cursos-dispositivos-visualizan.html"
+                ><i class="icon fa fa-circle-o"></i> Devices on which they are
+                viewed</a
+              >
+            </li>
+            <li>
+              <a class="treeview-item" href="cursos-mas-populares.html"
+                ><i class="icon fa fa-circle-o"></i> More popular</a
+              >
+            </li>
+            <li>
+              <a class="treeview-item" href="cursos-mas-descargados.html"
+                ><i class="icon fa fa-circle-o"></i> Most downloaded</a
+              >
+            </li>
+            <li>
+              <a class="treeview-item" href="cursos-mejores-calificados.html"
+                ><i class="icon fa fa-circle-o"></i> Top rated</a
+              >
+            </li>
+            <li>
+              <a class="treeview-item" href="cursos-tiempo-visualizacion.html"
+                ><i class="icon fa fa-circle-o"></i> Course viewing time</a
+              >
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a class="app-menu__item" href="#" data-toggle="treeview"
+            ><i class="fa fa-file-archive-o"></i
+            ><span class="app-menu__label">&nbsp;&nbsp;&nbsp;Resources</span
+            ><i class="treeview-indicator fa fa-angle-right"></i
+          ></a>
+          <ul class="treeview-menu">
+            <li>
+              <a class="treeview-item" href="recursos-mas-buscados.html"
+                ><i class="icon fa fa-circle-o"></i> Most searched</a
+              >
+            </li>
+            <li>
+              <a class="treeview-item" href="recursos-mas-visualizados.html"
+                ><i class="icon fa fa-circle-o"></i> Most viewed</a
+              >
+            </li>
+            <li>
+              <a
+                class="treeview-item"
+                href="recursos-dispositivos-visualizan.html"
+                ><i class="icon fa fa-circle-o"></i> Devices on which they are
+                viewed</a
+              >
+            </li>
+            <li>
+              <a class="treeview-item" href="recursos-mas-populares.html"
+                ><i class="icon fa fa-circle-o"></i> More popular</a
+              >
+            </li>
+            <li>
+              <a class="treeview-item" href="recursos-mas-descargados.html"
+                ><i class="icon fa fa-circle-o"></i>Most downloaded</a
+              >
+            </li>
+            <li>
+              <a class="treeview-item" href="recursos-mas-populares.html"
+                ><i class="icon fa fa-circle-o"></i> Top rated</a
+              >
+            </li>
+            <li>
+              <a class="treeview-item" href="recursos-tiempo-visualizacion.html"
+                ><i class="icon fa fa-circle-o"></i> Course viewing time</a
+              >
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </aside>
+    <main class="app-content">
+      <div class="app-title">
+        <div class="div">
+          <h1><i class="fa fa-pencil-square-o"></i> Profesores</h1>
+          <p>Se muestra la anal&iacute;tica de datos de los Profesores</p>
+          <br />
+          <!-- Buttons-->
+          <div class="tile mb-4">
+            <div class="page-header">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h2 class="mb-3 line-head" id="buttons">Gráfico de Sankey</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div id="container" class="graficoAmplio"></div>
+              <!--DIV DE LA GRAFICA de relación-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Essential javascripts for application to work-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- The javascript plugin to display page loading on top-->
+    <script src="js/plugins/pace.min.js"></script>
+    <!-- Page specific javascripts-->
+    <script>
+      $('.bs-component [data-toggle="popover"]').popover();
+      $('.bs-component [data-toggle="tooltip"]').tooltip();
+    </script>
+
+    <!--Controlador del gráfico de pastel 3D-->
+    <script src="js/controladorProfesores/controladorMasSeguidos.js"></script>
+  </body>
+</html>
