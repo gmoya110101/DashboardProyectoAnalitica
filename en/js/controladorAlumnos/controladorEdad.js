@@ -10,15 +10,15 @@ anychart.onDocumentReady(function () {
 
       
       chart.animation(true);
-      chart.title('Alumnos por edad');
-      chart.xAxis().title('Edad');
-      chart.yAxis().title('Total de alumnos');
+      chart.title('Students by age');
+      chart.xAxis().title('Age');
+      chart.yAxis().title('Total students');
       chart.container('container');
      
       //Formato de etiquetas
       var tooltip = chart.getSeries(0).tooltip();
-      tooltip.title().text("Alumnos por edad");
-      tooltip.format("Edad: {%x}\nTotal: {%value}");
+      tooltip.title().text("Students by age");
+      tooltip.format("Age: {%x}\nTotal: {%value}");
      
       //Para el color
       var series = chart.area(data);

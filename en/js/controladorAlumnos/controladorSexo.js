@@ -1,14 +1,14 @@
 anychart.onDocumentReady(function () {
 
     anychart.data.loadJsonFile(
-        'https://api.npoint.io/6f6fb2682c359d511a44',
+        'https://api.npoint.io/7036f929392d05adc1eb',
         function (data) {
             // Crea gráfico de barras
             var chart = anychart.column(data);
             chart.animation(true);
 
             // Título
-            chart.title('Alumnos por sexo');
+            chart.title('Students by sex');
 
             // Configuración del tooltip
             chart.tooltip().titleFormat('{%X}');
@@ -29,8 +29,8 @@ anychart.onDocumentReady(function () {
             chart.interactivity().hoverMode('by-x');
 
             // Títulos de los ejes
-            chart.xAxis().title('Sexo');
-            chart.yAxis().title('Cantidad');
+            chart.xAxis().title('Sex');
+            chart.yAxis().title('Total');
 
 
             chart.labels(true);

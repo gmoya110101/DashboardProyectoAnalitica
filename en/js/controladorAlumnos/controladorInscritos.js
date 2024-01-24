@@ -1,13 +1,13 @@
 anychart.onDocumentReady(function () {
   anychart.data.loadJsonFile(
-    'https://api.npoint.io/459242b023a82dff65a8',
+    'https://api.npoint.io/e8ab7c4aa2a3f72632b9',
     function (data) {
       var chart = anychart.pie3d(data);
       //Animación
       chart.animation(true);
 
       chart
-        .title('Alumnos inscritos por carrera')
+        .title('Students enrolled by major')
         // Radio del gráfico
         .radius('70%');
 
@@ -17,8 +17,8 @@ anychart.onDocumentReady(function () {
 
        //Formato de etiquetas
        var tooltip = chart.tooltip();
-       tooltip.title().text("Inscritos por carrera");
-       tooltip.format("Carrera: {%x}\nInscritos: {%value}");
+       tooltip.title().text("Enrolled by major");
+       tooltip.format("career: {%x}\nEnrolled: {%value}");
 
       // Id del div
       chart.container('pastel3d');

@@ -14,11 +14,11 @@ anychart.onDocumentReady(function () {
 
             //Formato de etiquetas
             var tooltip = chart.tooltip();
-            tooltip.title().text("Inscritos por institución");
-            tooltip.format("Institución: {%x}\nInscritos: {%value}");
+            tooltip.title().text("Enrolled by institution");
+            tooltip.format("Institution: {%x}\nInscribed: {%value}");
 
             // Título del gráfico
-            chart.title("Alumnos por institución educativa")
+            chart.title("Students by educational institution")
                 .radius('90%');;
 
             // // Id del div

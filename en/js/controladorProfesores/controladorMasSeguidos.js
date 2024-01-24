@@ -14,12 +14,12 @@ anychart.onDocumentReady(function () {
 
                 for (i = 0; i < this.income.length; i++) {
                     incomeText += Math.round(this.income[i].value / 100000) / 10 +
-                        " Trabaja para <- " + this.income[i].name + "\n";
+                        "  <- " + this.income[i].name + "\n";
                 }
 
                 for (i = 0; i < this.outcome.length; i++) {
                     outcomeText += Math.round(this.outcome[i].value / 100000) / 10 +
-                        " Trabaja con -> " + this.outcome[i].name + "\n";
+                        "  -> " + this.outcome[i].name + "\n";
                 }
 
                 if (this.outcome.length > 0) {
@@ -29,7 +29,7 @@ anychart.onDocumentReady(function () {
                 return incomeText + outcomeText;
             });
 
-            chart.title('Relaciones de profesores en la institución');
+            chart.title('Professor relations at the institution');
             chart.container('container');
             chart.draw();
         }

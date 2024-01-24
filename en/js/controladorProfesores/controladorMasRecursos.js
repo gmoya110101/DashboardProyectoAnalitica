@@ -2,7 +2,7 @@ var chart;
 anychart.onDocumentReady(function () {
     anychart.data.loadJsonFile(
         // Función para obtener los datos desde JSON
-        'https://api.npoint.io/8f012019c6378873c61d',
+        'https://api.npoint.io/78322f52554935cbf28e',
         function (data) {
             // crea el gráfico
             chart = anychart.graph(data);

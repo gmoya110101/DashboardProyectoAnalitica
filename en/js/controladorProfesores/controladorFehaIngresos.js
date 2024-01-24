@@ -33,7 +33,7 @@ anychart.onDocumentReady(function () {
     .width(1)
     .ticks({ type: 'line', fill: 'white', length: 2 });
 
-  gauge.title("Fecha de ingreso");
+  gauge.title("Date of admission");
  
   gauge
     .title()
@@ -90,7 +90,7 @@ anychart.onDocumentReady(function () {
 //etiquetados
   gauge
     .label(1)
-    .text('Más antiguo')
+    .text('Oldest')
     .fontColor('#212121')
     .fontSize(14)
     .offsetY('68%')
@@ -99,7 +99,7 @@ anychart.onDocumentReady(function () {
 
   gauge
     .label(2)
-    .text('Pocos años')
+    .text('Few years')
     .fontColor('#212121')
     .fontSize(14)
     .offsetY('68%')
@@ -108,7 +108,7 @@ anychart.onDocumentReady(function () {
 
   gauge
     .label(3)
-    .text('Más reciente')
+    .text('More recent')
     .fontColor('#212121')
     .fontSize(14)
     .offsetY('68%')
