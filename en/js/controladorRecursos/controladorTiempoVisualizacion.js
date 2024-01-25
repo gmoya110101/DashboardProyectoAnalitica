@@ -1,7 +1,7 @@
 anychart.onDocumentReady(function () {
 
     anychart.data.loadJsonFile(//Obtiene el JSON
-        'https://api.npoint.io/af6950eec992ecb54f8c',
+        'https://api.npoint.io/e42efddd97e70f128c41',
         function (data) {
 
             // Crea el gráfico de línea del tiempo
@@ -43,12 +43,12 @@ anychart.onDocumentReady(function () {
 // Función de los eventos 
 function eventsData() {
     return [
-        ['2023/01/25', 'Acceso al sistema'],
-        ['2023/02/15', 'Acceso al sistema'],
-        ['2023/03/09', 'Acceso al sistema'],
-        ['2023/03/14', 'Acceso al sistema'],
-        ['2023/03/19', 'Acceso al sistema'],
-        ['2023/04/08', 'Acceso al sistema'],
-        ['2023/04/26', 'Acceso al sistema']
+        ['2023/01/25', 'Access to the system'],
+        ['2023/02/15', 'Access to the system'],
+        ['2023/03/09', 'Access to the system'],
+        ['2023/03/14', 'Access to the system'],
+        ['2023/03/19', 'Access to the system'],
+        ['2023/04/08', 'Access to the system'],
+        ['2023/04/26', 'Access to the system']
     ];
 }

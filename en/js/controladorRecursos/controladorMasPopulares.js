@@ -1,7 +1,7 @@
 anychart.onDocumentReady(function () {
 
   anychart.data.loadJsonFile(
-    'https://api.npoint.io/1aa979f13c6b48517df1',
+    'https://api.npoint.io/6717dc07c69e9b3e1b27',
     function (data) {
       var dataSet = anychart.data.set(data);
       var colors = anychart.scales
@@ -13,7 +13,7 @@ anychart.onDocumentReady(function () {
 
       // Título
       chart
-        .title('Recursos más buscados')
+        .title('Most searched resources')
         // Integración de los datos
         .data(dataSet)
         // Integración de los colores
@@ -36,8 +36,8 @@ anychart.onDocumentReady(function () {
 
       //Formato de etiquetas
       var tooltip = chart.tooltip();
-      tooltip.title().text("Búsquedas");
-      tooltip.format("Recurso: {%x}\nPopularidad: {%value}");
+      tooltip.title().text("Searches");
+      tooltip.format("Resource: {%x}\nPopularity: {%value}");
 
       // Eventos para las palabras
       var normalFillFunction = chart.normal().fill();

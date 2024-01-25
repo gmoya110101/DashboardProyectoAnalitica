@@ -43,22 +43,17 @@
         <input class="app-search__input" type="search" placeholder="Search">
         <button class="app-search__button"><i class="fa fa-search"></i></button>
       </li>
+      <li>
+        <span class="en">Spanish</span>
+        <input type="checkbox" class="check" checked />
+        <span class="es">English</span>
+        <script src="../js/cambiaridioma.js"></script>
+      </li>
       <!--Notification Menu-->
 
       <!-- User Menu-->
 
-      <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown" aria-label="Open Profile Menu">
-          <div id="google_translate_element" class="google"></div>
-
-          <script type="text/javascript">
-            function googleTranslateElementInit() {
-              new google.translate.TranslateElement({ pageLanguage: 'es', includedLanguages: 'ca,eu,gl,en,fr,it,pt,de', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true }, 'google_translate_element');
-            }
-          </script>
-
-          <script type="text/javascript"
-            src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-        </a> </li>
+      
     </ul>
   </header>
   <!-- Sidebar menu-->
@@ -250,14 +245,14 @@
 
     <div class="app-title">
       <div class="div">
-        <h1><i class="fa fa-file-archive-o"></i> Recursos</h1>
-        <p>Se muestra la anal&iacute;tica de datos de los recursos</p><br>
+        <h1><i class="fa fa-file-archive-o"></i> Resources</h1>
+        <p>Resource data analytics displayed</p><br>
         <!-- Buttons-->
         <div class="tile mb-4">
           <div class="page-header">
             <div class="row">
               <div class="col-lg-12">
-                <h2 class="mb-3 line-head" id="buttons">Gráfico de anillo de recursos más descargados <h2>
+                <h2 class="mb-3 line-head" id="buttons">"Tagcloud" chart of most popular resources<h2>
               </div>
             </div>
           </div>

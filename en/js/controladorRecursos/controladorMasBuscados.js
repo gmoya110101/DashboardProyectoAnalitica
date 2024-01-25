@@ -1,7 +1,7 @@
 anychart.onDocumentReady(function () {
     //Función para obtener los datos desde un archivo JSON
     anychart.data.loadJsonFile(
-        'https://api.npoint.io/2f7e9b6ad3522a449964',
+        'https://api.npoint.io/f351e61b0e077e23f476',
         function (data) {
             // Configuración inicial del gráfico
             var dataTree = anychart.data.tree(data, 'as-table');
@@ -14,7 +14,7 @@ anychart.onDocumentReady(function () {
                 .useHtml(true)
                 .padding([0, 0, 20, 0])
                 .text(
-                    'Resumen de los recursos más buscados por carrera<br/>'
+                    'Summary of the most searched resources by career<br/>'
                 );
 
             //Escala 

@@ -1,6 +1,6 @@
 anychart.onDocumentReady(function () {
   anychart.data.loadJsonFile(
-    'https://api.npoint.io/80ec987aae137a75414d',
+    'https://api.npoint.io/000cf7061125903c0963',
     function (data) {
 
       var chart = anychart.pie(data);
@@ -8,7 +8,7 @@ anychart.onDocumentReady(function () {
       chart.animation(true);
       // Título
       chart
-        .title('Recursos más descargados')
+        .title('Most downloaded resources')
         // Radio
         .radius('45%')
         // Crea área vacía en el gráfico
@@ -17,8 +17,8 @@ anychart.onDocumentReady(function () {
 
       //Formato de etiquetas
       var tooltip = chart.tooltip();
-      tooltip.title().text("Descargas");
-      tooltip.format("Recurso: {%name}\nTotal descargas: {%value}");
+      tooltip.title().text("Downloads");
+      tooltip.format("Resource: {%name}\nDownloads: {%value}");
 
       // Id del contenedor
       chart.container('container');

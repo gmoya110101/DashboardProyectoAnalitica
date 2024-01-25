@@ -7,7 +7,7 @@ anychart.onDocumentReady(function () {
             // Crea el gráfico de línea del tiempo
             var chart = anychart.timeline();
 
-            chart.title('Historial de navegación');
+            chart.title('Browsing history');
 
             // Carga los datos
             var rangeSeries = chart.range(data);
@@ -43,12 +43,12 @@ anychart.onDocumentReady(function () {
 // Función de los eventos 
 function eventsData() {
     return [
-        ['2023/01/25', 'Acceso al sistema'],
-        ['2023/02/15', 'Acceso al sistema'],
-        ['2023/03/09', 'Acceso al sistema'],
-        ['2023/03/14', 'Acceso al sistema'],
-        ['2023/03/19', 'Acceso al sistema'],
-        ['2023/04/08', 'Acceso al sistema'],
-        ['2023/04/26', 'Acceso al sistema']
+        ['2023/01/25', 'Access to the system'],
+        ['2023/02/15', 'Access to the system'],
+        ['2023/03/09', 'Access to the system'],
+        ['2023/03/14', 'Access to the system'],
+        ['2023/03/19', 'Access to the system'],
+        ['2023/04/08', 'Access to the system'],
+        ['2023/04/26', 'Access to the system']
     ];
 }

@@ -1,13 +1,13 @@
 anychart.onDocumentReady(function () {
 
     anychart.data.loadJsonFile(
-        'https://api.npoint.io/6158addf47d48b51ae12',
+        'https://api.npoint.io/5277be8beb9cd54b0626',
         function (data) {
             var dataSet = anychart.data.set(data);
             // Poner el tipo de gráfico
             var chart = anychart.heatMap(data);
             //Titulo
-            chart.title("Cursos más visualizados por mes");
+            chart.title("Most viewed courses per month");
             // Creación de la escala de colores
             var colorScale = anychart.scales.ordinalColor();
             // Parámetros de los rangos
@@ -22,8 +22,8 @@ anychart.onDocumentReady(function () {
 
             //Formato de etiquetas
             var tooltip = chart.tooltip();
-            tooltip.title().text("Visualizaciones");
-            tooltip.format("Curso: {%x}\nTotal visualizaciones: {%heat}");
+            tooltip.title().text("Views");
+            tooltip.format("Course: {%x}\nViews: {%heat}");
 
             // Se aplica la escala
             chart.colorScale(colorScale);

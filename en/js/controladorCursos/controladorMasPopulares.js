@@ -1,7 +1,7 @@
 anychart.onDocumentReady(function () {
 
   anychart.data.loadJsonFile(
-    'https://api.npoint.io/46c100a7760fd8b69eb8',
+    'https://api.npoint.io/dab8529906e70ca21f17',
     function (data) {
       var dataSet = anychart.data.set(data);
       var colors = anychart.scales
@@ -12,7 +12,7 @@ anychart.onDocumentReady(function () {
       var chart = anychart.tagCloud();
       // Título
       chart
-        .title('Cursos más populares')
+        .title('Most popular courses')
         // Integración de los datos
         .data(dataSet)
         // Integración de los colores
@@ -30,8 +30,8 @@ anychart.onDocumentReady(function () {
 
       //Formato de etiquetas
       var tooltip = chart.tooltip();
-      tooltip.title().text("Búsquedas");
-      tooltip.format("Curso: {%x}\nPopularidad: {%value}");
+      tooltip.title().text("Searches");
+      tooltip.format("Course: {%x}\nPopularity: {%value}");
 
 
       // Eventos para las palabras

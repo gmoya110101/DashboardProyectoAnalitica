@@ -62,28 +62,13 @@
             data-toggle="dropdown"
             aria-label="Open Profile Menu"
           >
-            <div id="google_translate_element" class="google"></div>
-
-            <script type="text/javascript">
-              function googleTranslateElementInit() {
-                new google.translate.TranslateElement(
-                  {
-                    pageLanguage: "es",
-                    includedLanguages: "ca,eu,gl,en,fr,it,pt,de",
-                    layout:
-                      google.translate.TranslateElement.InlineLayout.SIMPLE,
-                    gaTrack: true,
-                  },
-                  "google_translate_element"
-                );
-              }
-            </script>
-
-            <script
-              type="text/javascript"
-              src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
-            ></script>
           </a>
+        </li>
+        <li>
+          <span class="en">Spanish</span>
+          <input type="checkbox" class="check" checked />
+          <span class="es">English</span>
+          <script src="../js/cambiaridioma.js"></script>
         </li>
       </ul>
     </header>
@@ -106,7 +91,7 @@
         <li>
           <a class="app-menu__item active" href="index.html"
             ><i class="app-menu__icon fa fa-dashboard"></i
-            ><span class="app-menu__label">Inicio</span></a
+            ><span class="app-menu__label">Start</span></a
           >
         </li>
         <li class="treeview">
@@ -274,12 +259,12 @@
     <main class="app-content">
       <div class="app-title">
         <div class="div">
-          <h1><i class="fa fa-book"></i> Cursos</h1>
-          <p>Se muestra la anal&iacute;tica de datos de los cursos</p>
+          <h1><i class="fa fa-book"></i> Courses</h1>
+          <p>The data analytics of the courses are shown</p>
           <br />
           <!-- Buttons-->
           <h2 class="mb-3 line-head" id="buttons">
-            Grafico de nodos del curso mejor calificado
+            Node graph of the highest rated course
           </h2>
 
           <div class="row">

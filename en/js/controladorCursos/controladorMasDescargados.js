@@ -1,6 +1,6 @@
 anychart.onDocumentReady(function () {
   anychart.data.loadJsonFile(
-    'https://api.npoint.io/b1800e5c0e3e89070704',
+    'https://api.npoint.io/6775a9604fc1edadb653',
     function (data) {
 
       var chart = anychart.pie(data);
@@ -9,7 +9,7 @@ anychart.onDocumentReady(function () {
       chart.animation(true);
       // Título
       chart
-        .title('Cursos más descargados')
+        .title('Most downloaded courses')
         // Radio
         .radius('45%')
         // Crea área vacía en el gráfico
@@ -17,8 +17,8 @@ anychart.onDocumentReady(function () {
 
       //Formato de etiquetas
       var tooltip = chart.tooltip();
-      tooltip.title().text("Descargas");
-      tooltip.format("Curso: {%name}\nTotal descargas: {%value}");
+      tooltip.title().text("Downloads");
+      tooltip.format("Course: {%name}\nDownloads: {%value}");
 
       // Contenedor
       chart.container('container');

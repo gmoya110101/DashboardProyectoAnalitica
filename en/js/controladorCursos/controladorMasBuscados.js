@@ -1,6 +1,6 @@
 anychart.onDocumentReady(function () {
     anychart.data.loadJsonFile(
-        'https://api.npoint.io/4fbc253ab206aa4e286e',
+        'https://api.npoint.io/047db2bc9bb398c7ad87',
         function (data) {
             // Vincula los datos del archivo JSON al gráfico
             var dataTree = anychart.data.tree(data, 'as-table');
@@ -13,7 +13,7 @@ anychart.onDocumentReady(function () {
                 .useHtml(true)
                 .padding([0, 0, 20, 0])
                 .text(
-                    'Resumen de los cursos más buscados por carrera<br/>'
+                    'Summary of the most sought after courses by career<br/>'
                 );
 
             // Escala 
@@ -78,7 +78,7 @@ anychart.onDocumentReady(function () {
                 })
                 .format(function () {
                     return (
-                        '<span style="color: #bfbfbf">Total de búsquedas: </span>' +
+                        '<span style="color: #bfbfbf">Total searches: </span>' +
                         anychart.format.number(this.value, { groupsSeparator: ' ' })
                     );
                 });

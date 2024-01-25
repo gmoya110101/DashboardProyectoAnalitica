@@ -1,7 +1,7 @@
 anychart.onDocumentReady(function () {
 
   anychart.data.loadJsonFile(
-    'https://api.npoint.io/ffbf3a32566521a92ed7',
+    'https://api.npoint.io/049b414dc3635f3507a8',
     function (data) {
 
       // Crea el gráfico
@@ -28,8 +28,8 @@ anychart.onDocumentReady(function () {
       series.selected().stroke("#CC0000", 4, "10 5", "round");
 
       // Títulos de los ejes 
-      chart.xAxis().title("Dispositivos");
-      chart.yAxis().title("Visualizaciones");
+      chart.xAxis().title("Devices");
+      chart.yAxis().title("Views");
 
       //Para mantener el tamaño
       chart.minBubbleSize("3%");
@@ -37,8 +37,8 @@ anychart.onDocumentReady(function () {
 
       //Formato de etiquetas
       var tooltip = chart.tooltip();
-      tooltip.title().text("Visualizaciones");
-      tooltip.format("Dispositivo: {%x}\nTotal visualizaciones: {%value}");
+      tooltip.title().text("Views");
+      tooltip.format("Device: {%x}\nViews: {%value}");
 
       // Dibuja el gráficoF
       chart.container("bubble");
